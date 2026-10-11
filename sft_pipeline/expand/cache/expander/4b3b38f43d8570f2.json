@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我习惯用数据和事实来验证决策的合理性，特别是涉及到用户情绪和技术精度的场景。只有在掌握了足够的证据后，我才会觉得接下来的每一步是值得的，这样既能减少返工，也能让设计更有底气。",
-  "inferred_factor": "C",
-  "inferred_subtype": "C2",
-  "evidence_quote": "我需要充分的证据证明我接下来做的每一步是有意义的",
-  "evidence_source": "Q1_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

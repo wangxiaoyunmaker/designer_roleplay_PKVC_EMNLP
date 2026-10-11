@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "用户的测试数据是我决策的重要依据。通过 A/B 测试，我能直观了解用户对界面的真实反应，而不是单纯依赖主观判断或企业的短期数据目标。这样的方式不仅能优化设计，还能确保用户体验的公平性和包容性，避免偏离实际需求。",
-  "inferred_factor": "C",
-  "inferred_subtype": "C2",
-  "evidence_quote": "用户的测试数据很重要",
-  "evidence_source": "Q5_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

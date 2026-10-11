@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我习惯先从整体服务场景和流程入手，把产品形态和使用场景想清楚，再考虑它如何与手机 App 协同。这样能确保设计的自然性和顺畅度，同时减少对用户的打扰。对我来说，构建一个完整的逻辑框架是设计的第一步，只有这样才能保证后续的细节不会偏离核心目标。",
-  "inferred_factor": "C",
-  "inferred_subtype": "C1",
-  "evidence_quote": "先构建整体的服务场景和流程",
-  "evidence_source": "Q1_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

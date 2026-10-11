@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "工程方案的准确率下降到 99%，这让我觉得有些过分了。数据固然重要，但如果它的表现已经明显不如预期，我会重新审视它的可靠性，而不是盲目接受。毕竟，设计不能只看数字，还要考虑实际效果和用户体验。",
-  "inferred_factor": "K",
-  "inferred_subtype": "K1",
-  "evidence_quote": "数据固然重要，但如果它的表现已经明显不如预期，我会重新审视它的可靠性。",
-  "evidence_source": "Q7_B2",
-  "confidence": "high",
-  "reason_if_low": ""
-}

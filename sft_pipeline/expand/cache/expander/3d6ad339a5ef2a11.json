@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我倾向于先看小范围用户的真实反馈，而不是凭主观判断或单一数据拍脑袋决定。尤其是涉及不同群体需求时，定量测试能帮我找到平衡点，避免忽视少数人的声音。设计最终是为人服务的，不能只考虑效率或利润，得让每个用户都能感到被尊重。",
-  "inferred_factor": "C",
-  "inferred_subtype": "C3",
-  "evidence_quote": "不应忽视其他人需求，看小部分人占比情况定",
-  "evidence_source": "Q3_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

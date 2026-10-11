@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我觉得用户隐私是底线，不能因为商业利益去触碰。哪怕有再多的数据支持，也不能拿用户的隐私去做交易。商业变现可以有很多方式，但前提是合规合法，不能让用户感觉被侵犯或被利用。这种事情一旦失去信任，就很难挽回。",
-  "inferred_factor": "C",
-  "inferred_subtype": "C1",
-  "evidence_quote": "用户伦理大于商业要求大于数据。",
-  "evidence_source": "Q7_B2",
-  "confidence": "high",
-  "reason_if_low": ""
-}

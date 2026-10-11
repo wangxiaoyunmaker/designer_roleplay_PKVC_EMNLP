@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我会先去翻法律 — 这块红线不踩才有后面的设计空间。老板要赚钱我懂，但合规不是讨论题，是前提。数据也一样，先看客观边界，再谈怎么优化。",
-  "inferred_factor": "C",
-  "inferred_subtype": "C1",
-  "evidence_quote": "用法律底线和客观商业数据来重新界定我们到底能做什么。",
-  "evidence_source": "Q4_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

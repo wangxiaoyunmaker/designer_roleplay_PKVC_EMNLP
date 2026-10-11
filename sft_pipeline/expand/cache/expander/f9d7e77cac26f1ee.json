@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我觉得设计的第一步是明确法律和商业的边界，尤其是用户隐私和合规问题。这些是项目的底线，不能踩。只有在这些前提明确后，才能进一步讨论功能和体验上的优化。否则，后续可能会因为忽略这些基础问题而陷入更大的麻烦。",
-  "inferred_factor": "C",
-  "inferred_subtype": "C3",
-  "evidence_quote": "项目核心的底线是不泄露、侵犯用户的隐私权，给自己带来法律上的风险。",
-  "evidence_source": "Q7_B3",
-  "confidence": "high",
-  "reason_if_low": ""
-}

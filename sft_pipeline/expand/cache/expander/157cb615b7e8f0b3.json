@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我习惯先从整体出发，明确产品的形态和使用场景，再细化到具体的交互细节。对我来说，设计的核心是让用户感到自然、顺畅，避免多余的打扰。只有先理清这些大的方向，才能确保产品在实际使用中既满足需求，又不让人觉得别扭。",
-  "inferred_factor": "P",
-  "inferred_subtype": "P1",
-  "evidence_quote": "我会先在脑中形成产品形态和使用场景，想象它如何与手机 App 协同",
-  "evidence_source": "Q1_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "每次拿到需求，我都会先想象产品的形态和使用场景，尤其是它和现有生态的协同。比如和手机 App 的配合，怎样才能让用户觉得自然顺畅，不被打扰。这种预想能帮我快速抓住核心问题，避免后续设计偏离方向。",
-  "inferred_factor": "P",
-  "inferred_subtype": "P1",
-  "evidence_quote": "拿到要求就开始思考可能性",
-  "evidence_source": "Q1_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

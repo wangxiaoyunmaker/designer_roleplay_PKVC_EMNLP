@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我更关注设计的根本作用是否解决了人的问题，尤其是实用性上的核心底线。通过低保真原型测试，可以快速验证用户对方案的接受度，避免后续投入资源却发现方向错误。人的需求是动态的，数据能帮助我更精准地抓住关键矛盾，减少后患。",
-  "inferred_factor": "P",
-  "inferred_subtype": "P1",
-  "evidence_quote": "人的问题中先解决基本实用问题，再者暂缓并在实践过程中解决人性问题。",
-  "evidence_source": "Q7_B3",
-  "confidence": "high",
-  "reason_if_low": ""
-}

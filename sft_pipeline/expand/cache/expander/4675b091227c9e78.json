@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我更习惯先把产品的核心形态和使用场景想清楚，这样后续的设计才能有的放矢。尤其是涉及到与手机 App 的协同时，提前考虑交互的自然性和流畅性，可以避免后期反复调整，节省时间和精力，同时也能让用户的体验更加顺畅。",
-  "inferred_factor": "P",
-  "inferred_subtype": "P1",
-  "evidence_quote": "我会先在脑中形成产品形态和使用场景，想象它如何与手机 App 协同。",
-  "evidence_source": "Q1_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

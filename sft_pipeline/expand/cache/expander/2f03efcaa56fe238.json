@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我会先构想使用场景，因为只有把用户的实际操作路径和需求想清楚，才能设计出真正自然、顺畅、不打扰的产品体验。尤其是涉及到与手机 App 的协同时，必须确保逻辑连贯，避免让用户感到困惑或中断。我觉得这种预想是设计的基础。",
-  "inferred_factor": "P",
-  "inferred_subtype": "P1",
-  "evidence_quote": "我会先在脑中形成产品形态和使用场景，想象它如何与手机 App 协同",
-  "evidence_source": "Q1_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

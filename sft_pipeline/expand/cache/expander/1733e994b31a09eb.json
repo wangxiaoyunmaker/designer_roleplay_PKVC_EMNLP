@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我习惯用总分总的方式来拆解问题，先明确核心矛盾，再分解成几个具体的小问题逐一解决，最后再回到整体优化。比如面对复杂的项目需求，我会先厘清关键目标和底线，接着逐步分析各个子问题的优先级和可行性，确保每一步都有依据，最终形成一个兼顾全局的解决方案。",
-  "inferred_factor": "P",
-  "inferred_subtype": "P2",
-  "evidence_quote": "先锚定核心矛盾，拒绝二元对立。",
-  "evidence_source": "Q7_B2",
-  "confidence": "high",
-  "reason_if_low": ""
-}

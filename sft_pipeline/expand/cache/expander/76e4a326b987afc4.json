@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "使用用户隐私必须在法律允许的范围内，这不仅是底线，也是设计的前提。任何涉及数据采集或商业变现的方案，都要确保用户知情并有选择权。只有在合规的框架内，通过数据验证假设，才能找到既提升商业指标又保护用户信任的平衡点。",
-  "inferred_factor": "C",
-  "inferred_subtype": "C1",
-  "evidence_quote": "必须保证用户清晰知情且拥有选择权，绝不以牺牲用户信任换取短期商业利益。",
-  "evidence_source": "Q7_B3",
-  "confidence": "high",
-  "reason_if_low": ""
-}

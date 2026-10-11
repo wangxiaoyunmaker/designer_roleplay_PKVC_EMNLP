@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我希望通过测试了解用户的真实反应，比如他们是否觉得产品外观可以接受，或者功能是否符合预期。这样能避免主观判断带来的偏差，也能更好地验证设计方向是否贴合市场需求。最终，我相信数据能帮助我做出更客观的决策，减少可能的试错成本。",
-  "inferred_factor": "C",
-  "inferred_subtype": "C2",
-  "evidence_quote": "用数据分析先尝试看看",
-  "evidence_source": "Q5",
-  "confidence": "high",
-  "reason_if_low": ""
-}

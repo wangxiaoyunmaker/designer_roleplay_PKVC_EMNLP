@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我觉得争论解决不了问题，还是直接动手设计更有效。比如构思一个新交互架构，既能保护隐私又能满足商业需求，用设计本身去平衡这些矛盾。与其纠结，不如用行动去创造一个突破口。",
-  "inferred_factor": "K",
-  "inferred_subtype": "K2",
-  "evidence_quote": "觉得主观争论是没办法解决问题的，Make it.",
-  "evidence_source": "Q4_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

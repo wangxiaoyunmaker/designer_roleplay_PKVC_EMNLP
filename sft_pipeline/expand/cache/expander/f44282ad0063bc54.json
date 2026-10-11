@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我对这个问题很犹豫。数据的准确性当然重要，但如果只看数据，可能会忽略一些更深层次的社会影响，比如对弱势群体的排斥。这种设计虽然效率高，但会让一部分人被服务体系抛弃。我觉得设计不能只服务少数人，而是要有包容性。",
-  "inferred_factor": "C",
-  "inferred_subtype": "C2",
-  "evidence_quote": "设计不是只服务“年轻新贵”的，尤其是在社区型公共空间中，设计应当具备包容性。",
-  "evidence_source": "Q7_B1",
-  "confidence": "high",
-  "reason_if_low": ""
-}

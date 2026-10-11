@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我习惯先把复杂问题拆解成几个子问题，再逐步解决。这种流程让我能更清晰地界定项目底线，同时结合经验和工具评估可行性。这样设计逻辑更明确，效率也更高。",
-  "inferred_factor": "P",
-  "inferred_subtype": "P2",
-  "evidence_quote": "将复杂的总委托拆解为几个具体的子问题",
-  "evidence_source": "Q2_cardid",
-  "confidence": "high",
-  "reason_if_low": ""
-}

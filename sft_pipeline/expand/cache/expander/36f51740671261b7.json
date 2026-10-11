@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "数据使用必须经过用户同意，同时确保隐私不泄露。这不仅是法律底线，也是商业信任的基础。尤其在涉及隐私敏感的场景时，我会优先查阅合规法案和竞品协议，明确边界后再设计，避免因违规或隐私争议引发信任危机。",
-  "inferred_factor": "K",
-  "inferred_subtype": "K1",
-  "evidence_quote": "数据的使用需要经过用户同意 并保证重要隐私不泄露",
-  "evidence_source": "Q4_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

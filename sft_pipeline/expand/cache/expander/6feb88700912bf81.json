@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我相信市场反馈的数据最贴近实际，因为用户的行为直接反映了他们的真实需求和偏好。与其依赖主观判断，不如通过 A/B 测试让数据说话，这样可以避免个人偏见，快速找到更符合用户预期的方案。最终，用户的选择才是决定设计成败的关键。",
-  "inferred_factor": "K",
-  "inferred_subtype": "K2",
-  "evidence_quote": "市场反应出来的数据是最贴合实际的",
-  "evidence_source": "Q5_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

@@ -16,7 +16,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import pandas as pd
 from openai import AsyncOpenAI
 
-DV3 = Path("/Users/wy/Desktop/RolePlay_Designer/RolePlay_Designer/0512技术方案/data_v3")
+DV3 = Path(__file__).resolve().parent.parent / "data_v3"
 
 V8_X_SCHEMA = {
     "type": "object",

@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我习惯先在脑中构建出产品的整体形态和使用场景，这样能让我更清楚地看到目标效果，也更有动力去推进后续的设计和优化。尤其是协同部分，我会反复想象它和手机 App 的交互细节，确保体验自然顺畅，不让用户感到打扰。",
-  "inferred_factor": "K",
-  "inferred_subtype": "K2",
-  "evidence_quote": "先构思出整体的效果，让自己有更强的动力推进下去",
-  "evidence_source": "Q1_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

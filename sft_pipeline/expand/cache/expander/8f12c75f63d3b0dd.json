@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我会先去查法律和数据，因为这是最基础的边界问题。如果连合法性都不清楚，后续的设计和商业决策都没有意义。明确了底线，才能确保产品既能满足商业需求，又不触碰用户隐私和伦理的红线。",
-  "inferred_factor": "K",
-  "inferred_subtype": "K1",
-  "evidence_quote": "先要明确是否违法",
-  "evidence_source": "Q4_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我的目标是让产品形态和使用场景自然顺畅，这才是设计的核心。无论是与手机 App 的协同，还是低打扰的体验，这些都围绕一个目的：用户用得舒服，产品才能真正发挥价值。设计不是为了炫技，而是为了解决问题。",
-  "inferred_factor": "P",
-  "inferred_subtype": "P1",
-  "evidence_quote": "我会先在脑中形成产品形态和使用场景，想象它如何与手机 App 协同。",
-  "evidence_source": "Q1_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我会先把产品的核心场景和形态想清楚，尤其是它和手机 App 的协同方式。对我来说，用户体验是最重要的，产品再好也不能让用户觉得别扭。只有在使用上自然、顺畅、低打扰，才能真正融入用户的生活，发挥实际价值。",
-  "inferred_factor": "V",
-  "inferred_subtype": "V2",
-  "evidence_quote": "我会先在脑中形成产品形态和使用场景，想象它如何与手机 App 协同。",
-  "evidence_source": "Q1_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

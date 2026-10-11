@@ -1,9 +1,0 @@
-{
-  "expanded_nl":     "我更看重人脑的创造力，而 AI 更像是工具。它可以高效完成重复性任务，但真正理解用户情绪、挖掘深层次需求，还是需要设计师自己去探索。比如焦虑这种情感，靠算法是难以触及的，这部分才是我愿意投入精力的地方。",
-  "inferred_factor": "K",
-  "inferred_subtype": "K1",
-  "evidence_quote":  "人负责创造力的部分，ai充当工程师的角色",
-  "evidence_source": "Q5_seed",
-  "confidence":      "high",
-  "reason_if_low":   ""
-}

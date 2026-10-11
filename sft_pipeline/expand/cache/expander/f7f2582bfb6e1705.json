@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我倾向于把抽象的道德议题拆解成具体场景，重新推演用户在真实环境中对数据的敏感点。这样能明确哪些灰色地带是可以合理化的，哪些是必须规避的。设计的底线是解决人的问题，商业问题可以作为副项逐步优化。",
-  "inferred_factor": "K",
-  "inferred_subtype": "K2",
-  "evidence_quote": "把这个宏大的道德议题，降维拆解成一个个极其具体的痛点需求。",
-  "evidence_source": "Q4_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

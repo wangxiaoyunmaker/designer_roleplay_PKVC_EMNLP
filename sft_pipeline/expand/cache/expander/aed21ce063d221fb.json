@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "用户隐私对我来说是不可妥协的底线。商业利益可以有很多种实现方式，但一旦侵犯隐私，用户的信任就会崩塌，这种伤害是不可逆的。我觉得设计师在这方面必须有明确的红线，不能因为短期利益而动摇原则。只有守住这条线，产品才有长远发展的可能。",
-  "inferred_factor": "V",
-  "inferred_subtype": "V1",
-  "evidence_quote": "处于道德感肯定不能对用户有伤害，这也就是设立个底线。",
-  "evidence_source": "Q2_cardid",
-  "confidence": "high",
-  "reason_if_low": ""
-}

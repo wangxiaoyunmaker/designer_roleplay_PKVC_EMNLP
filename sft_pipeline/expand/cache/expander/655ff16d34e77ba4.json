@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "看了项目背景，我脑海里立刻浮现了产品的使用画面，尤其是它和手机 App 协同的场景。比如用户在超市里通过手机完成支付或导航，整个过程自然流畅、不打扰正常购物节奏。这种画面感让我觉得设计的方向更清晰，也更贴近实际需求。",
-  "inferred_factor": "V",
-  "inferred_subtype": "V1",
-  "evidence_quote": "看了项目背景第一反应就是脑海里有类似使用的画面感",
-  "evidence_source": "Q1_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "面对复杂问题，我习惯先拆解成几个子问题，再逐一解决。这样不仅能理清思路，还能确保每个环节都能落地执行。比如在设计中，我会优先调用过往经验和行业规范，结合现有技术条件，逐步推进解决方案。这种方式让我在面对多方利益和伦理底线时，能更有条理地找到平衡点。",
-  "inferred_factor": "K",
-  "inferred_subtype": "K1",
-  "evidence_quote": "调用过去的经验、竞品案例或行业规范作参考",
-  "evidence_source": "Q2_cardid",
-  "confidence": "high",
-  "reason_if_low": ""
-}

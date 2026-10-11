@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "AI工具确实很强，但它的设计思路容易趋于同质化。我更倾向于先独立构思核心概念，确保产品有独特性和灵魂，再让AI辅助完成延展工作。这样既能发挥AI的效率优势，也能避免它对创意的过度干扰，保留设计的独立价值。",
-  "inferred_factor": "C",
-  "inferred_subtype": "C2",
-  "evidence_quote": "AI做的同质化太强，好的产品应该保留有独立的设计",
-  "evidence_source": "Q5_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

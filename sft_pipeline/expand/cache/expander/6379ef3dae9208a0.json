@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "复杂的工作我会拆成几个具体的子问题去处理，这样能一步步推进，不容易漏掉关键点。比如先明确硬性条件，再结合数据和案例，最后再优化细节，这样整个流程更有条理，也能兼顾效率和质量。",
-  "inferred_factor": "K",
-  "inferred_subtype": "K1",
-  "evidence_quote": "然后结合数据，以往的数据，还有市面上其他的数据，一些先进的案例。",
-  "evidence_source": "Q7_B2",
-  "confidence": "high",
-  "reason_if_low": ""
-}

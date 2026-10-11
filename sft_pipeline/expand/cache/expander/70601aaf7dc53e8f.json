@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我更倾向于用数据说话，直接让用户的反馈来帮助我决策。通过低保真原型测试，可以快速验证哪种方案更符合大众需求，也能避免主观判断的偏差。这样既能满足市场的实际需求，又能为后续优化提供明确的方向。",
-  "inferred_factor": "K",
-  "inferred_subtype": "K2",
-  "evidence_quote": "所以我会先拿数据说话——比如分析一下这个老城区超市的真实客流里，老年人占比多少",
-  "evidence_source": "Q7_B2",
-  "confidence": "high",
-  "reason_if_low": ""
-}

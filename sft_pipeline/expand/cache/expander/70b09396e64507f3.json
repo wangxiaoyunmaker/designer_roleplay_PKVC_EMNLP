@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我倾向于用数据和法律来明确边界，这样可以避免主观争论带来的不确定性。商业设计中，很多时候需要在伦理和利益之间找到平衡，而客观的约束条件能帮助我更清晰地界定哪些是可以做的，哪些是绝对不能碰的红线。",
-  "inferred_factor": "C",
-  "inferred_subtype": "C1",
-  "evidence_quote": "用法律底线和客观商业数据来重新界定我们到底能做什么。",
-  "evidence_source": "Q4_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

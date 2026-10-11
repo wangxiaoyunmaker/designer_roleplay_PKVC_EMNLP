@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我觉得要根据不同用户的需求来调整优先级。比如核心功能必须按时上线，先抢占市场，但一些边缘用户的需求可以暂时放一放，后续再优化。这样既能保证整体节奏，又不会让项目的目标跑偏。",
-  "inferred_factor": "P",
-  "inferred_subtype": "P2",
-  "evidence_quote": "根据不同的需求解决不同的困境",
-  "evidence_source": "Q6_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

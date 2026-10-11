@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我更相信数据的客观性，尤其是在用户需求多样且难以统一的情况下。通过 A/B 测试让用户行为直接决定方案去留，可以避免主观判断的偏差，同时也能快速验证哪些设计更符合实际需求。这种方式既高效又能减少试错成本。",
-  "inferred_factor": "K",
-  "inferred_subtype": "K2",
-  "evidence_quote": "用数据说话，数据支撑选择而不是主观判断",
-  "evidence_source": "Q5_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

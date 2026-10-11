@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我会先看数据再判断，因为没有具体的定量分析，讨论就容易变成主观猜测。尤其是像 EEG 传感器这种技术，精度和可靠性直接影响结果，必须拿到测试报告才能说服我。至于用户的心理数据，抑郁和焦虑这类指标也得看具体数值，不能只听模糊的描述。",
-  "inferred_factor": "K",
-  "inferred_subtype": "K3",
-  "evidence_quote": "我会要求查看内测时用户\"抑郁和焦虑\"的具体定量数据、以及现有 EEG 传感器的精度测试报告",
-  "evidence_source": "Q1_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

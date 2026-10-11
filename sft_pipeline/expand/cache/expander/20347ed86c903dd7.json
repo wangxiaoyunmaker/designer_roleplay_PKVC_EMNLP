@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我觉得设计的核心是为人服务，不能为了效率或利益牺牲人性化。完全依赖机器可能提高了效率，但面对突发情况时缺乏灵活性。人性化的设计不仅能赢得用户信任，也能长期维持客户群体的稳定。如果连基本的人性关怀都没有，那设计的意义就丧失了。",
-  "inferred_factor": "C",
-  "inferred_subtype": "C1",
-  "evidence_quote": "最核心的设计底线就是为人服务的，设计要贴合人性化。",
-  "evidence_source": "Q7_B3",
-  "confidence": "high",
-  "reason_if_low": ""
-}

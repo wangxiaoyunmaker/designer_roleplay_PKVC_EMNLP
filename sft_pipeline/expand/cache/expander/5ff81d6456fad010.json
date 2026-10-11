@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我习惯在脑中先构建一个完整的产品形态和使用场景，这样能确保整体逻辑顺畅，避免设计过程中出现割裂感。尤其是涉及多设备协同时，我会特别关注交互的自然性和低打扰性，因为这些细节直接影响用户的体验流畅度。",
-  "inferred_factor": "C",
-  "inferred_subtype": "C2",
-  "evidence_quote": "我会先在脑中形成产品形态和使用场景，想象它如何与手机 App 协同，并尽量做到自然、顺畅、低打扰。",
-  "evidence_source": "Q1_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

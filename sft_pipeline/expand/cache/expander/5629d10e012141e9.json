@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我觉得 AI 在某些环节确实能提高效率，但它的效果还不够成熟，尤其是涉及用户体验的细节。完全依赖 AI 会让设计变得机械化，失去人性化的触感。适当限制 AI 的使用，可以让团队保留人工的判断力，这对最终的设计质量很重要。",
-  "inferred_factor": "K",
-  "inferred_subtype": "K2",
-  "evidence_quote": "目前的ai效果不适合完全不介入人工",
-  "evidence_source": "Q5_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

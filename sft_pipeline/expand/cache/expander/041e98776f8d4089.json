@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我觉得用户体验是最重要的，尤其是在这种直接面向用户的场景里。AI生成的界面可以快速测试，但最终还是要看用户的反馈数据来决定方向。设计不能只靠技术炫技，核心还是要让用户觉得好用、顺手。",
-  "inferred_factor": "V",
-  "inferred_subtype": "V1",
-  "evidence_quote": "使用端当然是用户为核心。",
-  "evidence_source": "Q5_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

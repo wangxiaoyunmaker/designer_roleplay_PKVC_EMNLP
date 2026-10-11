@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我更关注用户实际的使用场景，而不是抽象的伦理议题。只有通过调研，才能知道用户在哪些具体情况下会对数据敏感，这样才能设计出真正解决问题的方案，而不是停留在表面的道德讨论上。",
-  "inferred_factor": "C",
-  "inferred_subtype": "C2",
-  "evidence_quote": "商业要求跟数据反而是可以排到前面的，因为用户伦理这个东西...",
-  "evidence_source": "Q7_B2",
-  "confidence": "high",
-  "reason_if_low": ""
-}

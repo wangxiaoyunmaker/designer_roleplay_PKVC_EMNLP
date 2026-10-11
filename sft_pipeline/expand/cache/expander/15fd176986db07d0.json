@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我觉得结果是最有说服力的。如果老板坚持按原方案全量上线，那我就照做。等到实际数据出来，问题暴露后，老板自然会调整方向。这样既避免了无谓争论，也能用事实推动改进，比现在空谈更有效率。",
-  "inferred_factor": "C",
-  "inferred_subtype": "C2",
-  "evidence_quote": "结果不好，老板还是会让改的；用结果让老板改变主意",
-  "evidence_source": "Q6_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我习惯先在脑中构建一个产品的大致形态和使用场景，这样可以帮助我快速找到设计的核心方向。比如，产品如何与手机 App 协同，如何做到自然、顺畅、低打扰，这些都是我会优先考虑的点。只有先明确了这些关键场景，后续的细节优化才能更有针对性。",
-  "inferred_factor": "P",
-  "inferred_subtype": "P1",
-  "evidence_quote": "我会先在脑中形成产品形态和使用场景，想象它如何与手机 App 协同",
-  "evidence_source": "Q1_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

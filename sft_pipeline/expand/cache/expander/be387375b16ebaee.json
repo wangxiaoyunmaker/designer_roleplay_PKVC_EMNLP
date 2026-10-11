@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我更倾向于在美观和可行之间找到一个平衡点。数据当然重要，但如果 79% 的效果已经足够支持用户体验，我不会为了追求更高的指标而牺牲设计的美感。用户的直观感受是产品成功的关键，丑陋的设计会直接影响他们的使用意愿。",
-  "inferred_factor": "V",
-  "inferred_subtype": "V2",
-  "evidence_quote": "如果 79% 够用，就坚决拒绝丑陋的设计。",
-  "evidence_source": "Q3_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

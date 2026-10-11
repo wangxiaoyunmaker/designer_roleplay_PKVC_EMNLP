@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "老板的安排是大方向，但我会尽量在细节上做些调整，给用户留出一点空间。比如在设计上保留人工服务，或者优化货架布局，这样既能满足不同群体的需求，也不会完全违背公司的商业目标。",
-  "inferred_factor": "C",
-  "inferred_subtype": "C2",
-  "evidence_quote": "必须保留现有的人工收银的方式以及现金支付的功能来适配老年群体的使用习惯",
-  "evidence_source": "Q7_B3",
-  "confidence": "high",
-  "reason_if_low": ""
-}

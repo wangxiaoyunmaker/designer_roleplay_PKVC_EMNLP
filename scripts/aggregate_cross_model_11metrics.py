@@ -1,4 +1,4 @@
-"""Aggregate 11-metric point estimates for 6 models × 10 conditions and merge
+"""Aggregate saved final-paper conditions across 5 models and merge
 into cross_model_full_metrics_v2.json.
 
 Original cross_model_full_metrics.json only has 6 chain-structure metrics.
@@ -72,13 +72,14 @@ def main():
         ("claudehaiku45", "Claude Haiku 4.5"),
         ("deepseekv4flash", "DeepSeek V4 Flash"),
         ("qwen35b", "Qwen 3.6 35B A3B"),
-        ("qwen27b", "Qwen 3.6 27B"),
     ]
 
     print("[load] shared data...")
     trait_vectors = load_trait_vectors(Path("data_v3/scale_responses.csv"))
     supplements = load_supplements(Path("data_v3/task_responses.csv"))
     cache = load_cache()
+    if not cache:
+        raise RuntimeError("Embedding cache is absent. Regenerate it with evaluate_paper before aggregation.")
     print(f"  cache: {len(cache)} embeddings")
 
     q16_rows = [json.loads(l) for l in

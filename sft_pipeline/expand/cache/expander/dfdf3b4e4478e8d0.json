@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "对于 C 端产品，我更倾向于用数据说话。用户的购买意愿是最直接的反馈，能帮助我判断哪种方案更符合市场需求。通过低保真原型测试，可以快速验证假设，避免主观偏见，同时也能在早期阶段发现潜在问题，为后续优化提供依据。",
-  "inferred_factor": "K",
-  "inferred_subtype": "K2",
-  "evidence_quote": "商业要求和数据为基础。用户伦理为迭代中的筛选标准。",
-  "evidence_source": "Q7_B2",
-  "confidence": "high",
-  "reason_if_low": ""
-}

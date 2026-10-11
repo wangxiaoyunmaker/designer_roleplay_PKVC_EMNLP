@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我习惯把大问题拆成小问题，再逐个击破。隐私和开源这些表象议题，背后其实是用户对数据敏感的具体场景。我会重新调研真实痛点，把抽象的道德讨论转化成能落地的设计任务，这样才能既解决问题又不陷入空泛的争论。",
-  "inferred_factor": "K",
-  "inferred_subtype": "K2",
-  "evidence_quote": "优先大部分用户的必要需求，再考虑数据和商业要求。",
-  "evidence_source": "Q7_B2",
-  "confidence": "high",
-  "reason_if_low": ""
-}

@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我倾向于先上线核心功能，确保产品按时推出，占据市场先机。至于焦虑缓解和边缘用户的设计，可以在后续迭代中通过数据反馈来优化。只要不触及用户伦理的底线，商业需求优先是合理的选择，这样既能满足大多数用户，也能在后续版本中逐步完善。",
-  "inferred_factor": "C",
-  "inferred_subtype": "C1",
-  "evidence_quote": "可能在构建方案的过程中，我还是会以商业要求为先",
-  "evidence_source": "Q7_B2",
-  "confidence": "high",
-  "reason_if_low": ""
-}

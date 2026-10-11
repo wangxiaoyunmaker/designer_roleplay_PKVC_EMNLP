@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我觉得直接用对比实验能最快找到答案。AI生成的界面虽然看起来很智能，但实际效果还是得靠用户数据说话。与其纠结理论上的好坏，不如让用户直接参与测试，真实反馈才是最可靠的依据。",
-  "inferred_factor": "K",
-  "inferred_subtype": "K2",
-  "evidence_quote": "直接挑选几套 AI 生成的界面进行A/B测试，由用户的测试数据决定方案去留。",
-  "evidence_source": "Q5_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

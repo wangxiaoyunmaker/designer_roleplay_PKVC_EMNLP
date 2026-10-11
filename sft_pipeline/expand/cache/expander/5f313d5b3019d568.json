@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "法规是不可逾越的红线，因为它直接决定了我们设计的边界。无论商业目标多么重要，都不能以牺牲合规为代价。这是设计的前提，也是底线。在面对复杂的利益权衡时，我会优先明确法律允许的范围，再在这个框架内寻找最优解，确保既能满足商业需求，又不触碰红线。",
-  "inferred_factor": "C",
-  "inferred_subtype": "C1",
-  "evidence_quote": "法规是客观不可逾越的红线",
-  "evidence_source": "Q4_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

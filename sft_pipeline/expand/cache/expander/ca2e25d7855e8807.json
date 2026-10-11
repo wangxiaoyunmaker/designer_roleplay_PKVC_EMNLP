@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我会选择拒绝上线，因为用户感受是我的底线。即使管理层有商业上的压力，我也无法接受牺牲用户体验来换取短期利益。设计师的责任是平衡各方，但在这种情况下，我更倾向于保护用户的权益，哪怕因此退出项目。",
-  "inferred_factor": "C",
-  "inferred_subtype": "C2",
-  "evidence_quote": "我无法百分百抛弃用户提出的身心健康问题。",
-  "evidence_source": "Q1_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

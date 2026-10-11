@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "这个问题得靠法律和数据来解决。我会先去翻合规法案和竞品隐私协议，明确哪些是红线不能碰。商业变现的精算报告也很重要，得用客观数据来判断哪些方案既能满足底线，又能兼顾商业目标。主观争论解决不了问题，必须用事实说话。",
-  "inferred_factor": "C",
-  "inferred_subtype": "C1",
-  "evidence_quote": "得靠法律上来解决这个问题",
-  "evidence_source": "Q4_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "简单重复的工作交给 AI 是最优解，人类的精力应该放在 AI 无法触及的地方，比如深挖用户行为背后的逻辑和情感。这不仅是效率的分工，也是价值的分工。AI 擅长的是执行，而人脑更适合探索那些复杂、多变且需要直觉判断的领域。",
-  "inferred_factor": "K",
-  "inferred_subtype": "K2",
-  "evidence_quote": "简单工作交给ai，人可以做ai做不到的",
-  "evidence_source": "Q5_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

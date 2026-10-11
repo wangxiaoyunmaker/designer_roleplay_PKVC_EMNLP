@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "这个产品的核心功能非常明确，数据的准确性直接决定了它的价值。我觉得在这种以功能为主导的场景下，其他因素可以适当让步，毕竟用户选择它就是为了可靠的性能表现。工程部门的方案已经达到了 99% 的准确率，这种情况下再纠结其他方面反而是舍本逐末。",
-  "inferred_factor": "K",
-  "inferred_subtype": "K2",
-  "evidence_quote": "数据是支撑，所以放在第二位",
-  "evidence_source": "Q7_B2",
-  "confidence": "high",
-  "reason_if_low": ""
-}

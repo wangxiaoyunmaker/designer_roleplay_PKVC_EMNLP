@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我觉得在资源有限的情况下，优先保证核心目标是最重要的。其他可以暂时放一放，等到后续再优化。这样既能按时上线抢占市场先机，又能为后续的迭代留出空间。只要核心体验不受影响，分阶段推进是一个合理的选择，能让整体节奏更稳妥。",
-  "inferred_factor": "C",
-  "inferred_subtype": "C2",
-  "evidence_quote": "可以妥协的是实现路径与功能优先级——比如分阶段上线、先MVP验证再迭代",
-  "evidence_source": "Q7_B3",
-  "confidence": "high",
-  "reason_if_low": ""
-}

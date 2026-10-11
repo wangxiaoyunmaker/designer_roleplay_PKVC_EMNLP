@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我会先去翻法律和数据，明确我们到底能做什么。因为如果连底线都不清楚，后续的设计和讨论就没有意义。商业要求可以灵活调整，但法律红线和客观数据是不能碰的，这也是我判断优先级的第一步。",
-  "inferred_factor": "K",
-  "inferred_subtype": "K1",
-  "evidence_quote": "用法律底线和客观商业数据来重新界定我们到底能做什么。",
-  "evidence_source": "Q4_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

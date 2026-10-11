@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我关注的是用户的实际需求，而不是仅仅追求技术的炫酷或数据的表面指标。设计的核心是为用户服务，尤其是要关注那些可能被忽视的群体。通过查看用户的情绪数据和传感器的精度报告，我能更清楚地了解产品对用户的真实影响，从而做出更负责任的设计决策。",
-  "inferred_factor": "C",
-  "inferred_subtype": "C1",
-  "evidence_quote": "用户需求所在，是我设计的重点",
-  "evidence_source": "Q1_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

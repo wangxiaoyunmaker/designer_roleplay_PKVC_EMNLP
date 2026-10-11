@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我觉得设计师的责任就是把产品放到实际场景中去推演，尤其是它的使用过程和用户感受。比如手机 App 的协同，必须做到自然顺畅，不能让用户觉得别扭。",
-  "inferred_factor": "C",
-  "inferred_subtype": "C1",
-  "evidence_quote": "接受了委托就应该放在实际场景中去思考了",
-  "evidence_source": "Q1_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

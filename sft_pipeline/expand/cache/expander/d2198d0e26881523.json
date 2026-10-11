@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我习惯先明确底线，尤其是法律和伦理方面的边界。这些是设计的基础，不能有任何模糊空间。比如用户隐私、商业合规、消费伦理等问题，只有先把这些红线厘清，才能在后续设计中找到平衡点，既满足商业目标，又不损害用户体验和信任。",
-  "inferred_factor": "C",
-  "inferred_subtype": "C3",
-  "evidence_quote": "用户伦理作为底线优先考虑，因为用户作为底层前提是品牌长期信任的基础。",
-  "evidence_source": "Q7_B2",
-  "confidence": "high",
-  "reason_if_low": ""
-}

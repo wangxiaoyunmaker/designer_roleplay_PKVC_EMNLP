@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "项目里有些矛盾是绕不过去的，比如效率和用户健康之间的冲突。如果不先把这个核心问题梳理清楚，后续的设计和决策都会变得没有方向。我会先从数据和实际情况入手，找到两者的平衡点，确保既能满足商业目标，又不违背基本的伦理底线。",
-  "inferred_factor": "K",
-  "inferred_subtype": "K2",
-  "evidence_quote": "这个核心矛盾如果不理清，没法往下做。",
-  "evidence_source": "Q1_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

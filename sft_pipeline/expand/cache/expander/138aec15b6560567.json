@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "如果没有金钱焦虑，我当然会更直接地拒绝不合理的要求。但现实中，设计师常常需要在不触碰底线的前提下，用一些隐晦的方式保护用户的权益。比如在细节上做微操，给用户留一点喘息空间。这种方式虽然不完美，但在很多情况下是唯一能做到的平衡点。",
-  "inferred_factor": "C",
-  "inferred_subtype": "C2",
-  "evidence_quote": "如果触及了这些底线的话，我一定会拒绝这个工作。",
-  "evidence_source": "Q7_B2",
-  "confidence": "high",
-  "reason_if_low": ""
-}

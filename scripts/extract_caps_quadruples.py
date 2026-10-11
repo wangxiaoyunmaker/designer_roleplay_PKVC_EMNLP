@@ -13,11 +13,7 @@ import json
 from collections import Counter
 from pathlib import Path
 
-INPUT_PATH = Path(
-    "/Users/wy/Library/Containers/com.tencent.xinWeChat/Data/Documents/"
-    "xwechat_files/wxid_bwlgpt4lwmci22_f47f/msg/file/2026-05/"
-    "option_trait_mapping.json"
-)
+INPUT_PATH = Path(__file__).resolve().parent.parent / "reports/datav3/per_designer/option_trait_mapping.json"
 OUT_DIR = Path(__file__).resolve().parent.parent / "data" / "processed"
 OUT_PATH = OUT_DIR / "caps_quadruples.json"
 

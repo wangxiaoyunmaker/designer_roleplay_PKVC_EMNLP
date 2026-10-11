@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我更倾向于先把问题拆解清楚，再去调用经验和数据来验证。设计不是凭空想象，而是基于积累的设计思路和实际的边界条件一步步推进。只有这样，才能确保每一步都有依据，最终的方案也更接近真实需求。",
-  "inferred_factor": "K",
-  "inferred_subtype": "K1",
-  "evidence_quote": "调用过去的经验、竞品案例或行业规范作参考",
-  "evidence_source": "Q2_cardid",
-  "confidence": "high",
-  "reason_if_low": ""
-}

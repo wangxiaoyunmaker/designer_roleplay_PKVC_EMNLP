@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我会优先查看 EEG 传感器的精度测试报告和用户情绪数据，因为这些是判断产品是否可靠的核心依据。没有明确的数据支持，我无法评估技术是否真正有效，也无法说服自己接受可能存在的伦理风险。设计师的责任是用事实说话，而不是盲目追求商业目标。",
-  "inferred_factor": "C",
-  "inferred_subtype": "C1",
-  "evidence_quote": "坚决抵制以牺牲用户隐私，违背用户伦理为代价换取短期数据增长的设计思路。",
-  "evidence_source": "Q7_B1",
-  "confidence": "high",
-  "reason_if_low": ""
-}

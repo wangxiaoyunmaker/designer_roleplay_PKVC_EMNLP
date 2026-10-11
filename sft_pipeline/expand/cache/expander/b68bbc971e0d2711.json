@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我倾向于先用科学数据验证假设，尤其是涉及用户心理和技术精度的问题。设计不能只凭直觉或经验，要有事实支撑，这样才能减少偏差，让方案更可靠。",
-  "inferred_factor": "K",
-  "inferred_subtype": "K2",
-  "evidence_quote": "设计形式应该基于科学原理",
-  "evidence_source": "Q1_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

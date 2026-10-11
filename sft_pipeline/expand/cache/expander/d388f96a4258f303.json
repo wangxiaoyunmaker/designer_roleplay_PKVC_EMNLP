@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "公司要生存，效率是绕不开的核心问题。我选择直接用 AI 生成界面做 A/B 测试，因为这能快速验证方案的可行性，省下大量试错成本。虽然用户需求也重要，但在资源有限的情况下，先用数据筛掉不合适的方向，再逐步优化，才能兼顾效率和效果。",
-  "inferred_factor": "C",
-  "inferred_subtype": "C1",
-  "evidence_quote": "生产效率永远是公司商业价值的核心所在",
-  "evidence_source": "Q5_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

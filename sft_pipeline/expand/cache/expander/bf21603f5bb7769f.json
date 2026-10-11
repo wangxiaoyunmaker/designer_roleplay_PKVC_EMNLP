@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我习惯用数据来验证设计逻辑，因为数据能提供客观依据，减少主观判断的偏差。这和我的生活习惯有关，比如我会用健康数据来调整作息，用消费记录来优化预算。设计中也是类似的，我倾向于先用数据验证假设，再根据实际情况调整策略。",
-  "inferred_factor": "K",
-  "inferred_subtype": "K2",
-  "evidence_quote": "使用客观数据、测试报告来证明某个逻辑",
-  "evidence_source": "Q2_cardid",
-  "confidence": "high",
-  "reason_if_low": ""
-}

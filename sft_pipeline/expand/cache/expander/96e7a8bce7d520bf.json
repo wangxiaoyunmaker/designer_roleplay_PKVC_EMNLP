@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "隐私的边界在于用户的知情权和选择权。我更倾向用设计去解决矛盾，比如构思一种新交互架构，让用户能清楚地看到数据流向，并决定是否参与。这种方式既能满足隐私需求，也能兼顾商业目标。",
-  "inferred_factor": "C",
-  "inferred_subtype": "C2",
-  "evidence_quote": "数据隐私的边界来自用户本身知情权，可选择即可",
-  "evidence_source": "Q4_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

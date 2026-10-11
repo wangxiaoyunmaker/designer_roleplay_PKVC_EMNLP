@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "AI 已经解决了效率问题，我更愿意把精力放在用户行为上，比如他们为什么会焦虑。这些心理层面的痛点是AI无法触及的，但却能决定设计的成败。我觉得好的设计是要结合技术和人脑，既要用AI优化生产力，也要用人脑去理解用户的真实需求。",
-  "inferred_factor": "C",
-  "inferred_subtype": "C2",
-  "evidence_quote": "要充分利用AI对生产力的解放",
-  "evidence_source": "Q5_seed",
-  "confidence": "high",
-  "reason_if_low": ""
-}

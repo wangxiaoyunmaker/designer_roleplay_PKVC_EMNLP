@@ -1,9 +1,0 @@
-{
-  "expanded_nl": "我觉得老板最看重的就是数据，尤其是用户行为数据。这种情况下，直接用 A/B 测试让用户选择，数据自然会成为最有力的说服工具。比起主观讨论，数据能更直观地反映方案的优劣，也能减少沟通成本。",
-  "inferred_factor": "C",
-  "inferred_subtype": "C1",
-  "evidence_quote": "通过数据来同时权衡呃是否是高效，或者是投诉率是否降低或增加。",
-  "evidence_source": "Q7_B2",
-  "confidence": "high",
-  "reason_if_low": ""
-}
