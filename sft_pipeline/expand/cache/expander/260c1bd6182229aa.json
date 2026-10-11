@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我更看重核心功能的实现，而不是追求面面俱到。只要主要功能能跑通，就可以快速投入市场，后续再优化。对我来说，产品的第一步是找到最关键的使用场景，确保它自然、顺畅地融入用户的生活，其他细节可以慢慢完善。",
+  "inferred_factor": "P",
+  "inferred_subtype": "P1",
+  "evidence_quote": "做不到所有功能都满分，主要功能可以实现就可以变现",
+  "evidence_source": "Q1_seed",
+  "confidence": "high",
+  "reason_if_low": ""
+}

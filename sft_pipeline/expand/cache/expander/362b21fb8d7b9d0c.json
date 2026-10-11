@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我更相信用户的真实反馈，而不是靠主观判断去猜测市场需求。通过小规模定量测试，可以直接看到用户的购买意愿数据，这种方式能让我更清晰地了解哪种方案更符合实际需求，也避免了设计上的盲目性。",
+  "inferred_factor": "K",
+  "inferred_subtype": "K2",
+  "evidence_quote": "用户的数据才是真实的数据",
+  "evidence_source": "Q3_seed",
+  "confidence": "high",
+  "reason_if_low": ""
+}

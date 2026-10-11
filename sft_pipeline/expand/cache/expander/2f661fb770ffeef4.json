@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我认为即使是少数人的利益，也不能忽视。抑郁和焦虑的数据可能揭示潜在的风险，而这些风险一旦被忽略，可能会对整个产品的伦理性和市场接受度造成巨大影响。所以拿事实说话，确保设计能兼顾所有用户群体的安全和需求，是我的底线。",
+  "inferred_factor": "K",
+  "inferred_subtype": "K3",
+  "evidence_quote": "少部分人的利益也是利益，可能会埋藏巨大隐患",
+  "evidence_source": "Q1_seed",
+  "confidence": "high",
+  "reason_if_low": ""
+}

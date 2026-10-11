@@ -1,0 +1,271 @@
+{
+  "n": 163,
+  "p": 30,
+  "pearson": {
+    "mean_abs_off": 0.1120185385772092,
+    "median_off": 0.08825320131979472,
+    "max_abs_off": 0.41328652053770787,
+    "fdr_thresh": 0.005359423632651489,
+    "n_sig_pairs": 48
+  },
+  "spearman": {
+    "mean_abs_off": 0.11120719534324737,
+    "median_off": 0.08986680275888559,
+    "fdr_thresh": 0.004680460026353368,
+    "n_sig_pairs": 43
+  },
+  "det_corr_matrix": 0.001712451142144191,
+  "pair_threshold": 0.5,
+  "n_high_pairs": 0,
+  "high_pairs": [],
+  "top20_pairs": [
+    {
+      "i": 7,
+      "j": 28,
+      "item_i": "复杂工具信仰",
+      "item_j": "资产开源",
+      "pearson_r": 0.413,
+      "pearson_p": 0.0,
+      "spearman_r": 0.418,
+      "sign_agree": true
+    },
+    {
+      "i": 7,
+      "j": 11,
+      "item_i": "复杂工具信仰",
+      "item_j": "封闭生态竞争",
+      "pearson_r": 0.383,
+      "pearson_p": 0.0,
+      "spearman_r": 0.377,
+      "sign_agree": true
+    },
+    {
+      "i": 4,
+      "j": 9,
+      "item_i": "创新代价",
+      "item_j": "完美主义/MVP",
+      "pearson_r": 0.367,
+      "pearson_p": 0.0,
+      "spearman_r": 0.358,
+      "sign_agree": true
+    },
+    {
+      "i": 6,
+      "j": 17,
+      "item_i": "团队依恋",
+      "item_j": "数据 vs 直觉",
+      "pearson_r": 0.34,
+      "pearson_p": 0.0,
+      "spearman_r": 0.345,
+      "sign_agree": true
+    },
+    {
+      "i": 7,
+      "j": 29,
+      "item_i": "复杂工具信仰",
+      "item_j": "风险规避",
+      "pearson_r": 0.336,
+      "pearson_p": 0.0,
+      "spearman_r": 0.343,
+      "sign_agree": true
+    },
+    {
+      "i": 2,
+      "j": 9,
+      "item_i": "仿生与有机",
+      "item_j": "完美主义/MVP",
+      "pearson_r": 0.32,
+      "pearson_p": 0.0,
+      "spearman_r": 0.312,
+      "sign_agree": true
+    },
+    {
+      "i": 14,
+      "j": 19,
+      "item_i": "技术支持",
+      "item_j": "时代 vs 永恒",
+      "pearson_r": 0.314,
+      "pearson_p": 0.0,
+      "spearman_r": 0.305,
+      "sign_agree": true
+    },
+    {
+      "i": 3,
+      "j": 28,
+      "item_i": "创作者署名",
+      "item_j": "资产开源",
+      "pearson_r": 0.309,
+      "pearson_p": 0.0001,
+      "spearman_r": 0.293,
+      "sign_agree": true
+    },
+    {
+      "i": 2,
+      "j": 7,
+      "item_i": "仿生与有机",
+      "item_j": "复杂工具信仰",
+      "pearson_r": 0.3,
+      "pearson_p": 0.0001,
+      "spearman_r": 0.296,
+      "sign_agree": true
+    },
+    {
+      "i": 17,
+      "j": 22,
+      "item_i": "数据 vs 直觉",
+      "item_j": "独裁 vs 委员会",
+      "pearson_r": 0.294,
+      "pearson_p": 0.0001,
+      "spearman_r": 0.281,
+      "sign_agree": true
+    },
+    {
+      "i": 11,
+      "j": 29,
+      "item_i": "封闭生态竞争",
+      "item_j": "风险规避",
+      "pearson_r": 0.293,
+      "pearson_p": 0.0001,
+      "spearman_r": 0.298,
+      "sign_agree": true
+    },
+    {
+      "i": 24,
+      "j": 28,
+      "item_i": "系统微模块",
+      "item_j": "资产开源",
+      "pearson_r": 0.289,
+      "pearson_p": 0.0002,
+      "spearman_r": 0.307,
+      "sign_agree": true
+    },
+    {
+      "i": 7,
+      "j": 15,
+      "item_i": "复杂工具信仰",
+      "item_j": "政治中立性",
+      "pearson_r": 0.284,
+      "pearson_p": 0.0002,
+      "spearman_r": 0.308,
+      "sign_agree": true
+    },
+    {
+      "i": 4,
+      "j": 21,
+      "item_i": "创新代价",
+      "item_j": "混沌与灵感",
+      "pearson_r": 0.282,
+      "pearson_p": 0.0003,
+      "spearman_r": 0.309,
+      "sign_agree": true
+    },
+    {
+      "i": 18,
+      "j": 30,
+      "item_i": "数据隐私交换",
+      "item_j": "黑盒透明度",
+      "pearson_r": 0.279,
+      "pearson_p": 0.0003,
+      "spearman_r": 0.277,
+      "sign_agree": true
+    },
+    {
+      "i": 6,
+      "j": 9,
+      "item_i": "团队依恋",
+      "item_j": "完美主义/MVP",
+      "pearson_r": 0.276,
+      "pearson_p": 0.0004,
+      "spearman_r": 0.286,
+      "sign_agree": true
+    },
+    {
+      "i": 6,
+      "j": 22,
+      "item_i": "团队依恋",
+      "item_j": "独裁 vs 委员会",
+      "pearson_r": 0.275,
+      "pearson_p": 0.0004,
+      "spearman_r": 0.268,
+      "sign_agree": true
+    },
+    {
+      "i": 6,
+      "j": 24,
+      "item_i": "团队依恋",
+      "item_j": "系统微模块",
+      "pearson_r": 0.274,
+      "pearson_p": 0.0004,
+      "spearman_r": 0.304,
+      "sign_agree": true
+    },
+    {
+      "i": 3,
+      "j": 7,
+      "item_i": "创作者署名",
+      "item_j": "复杂工具信仰",
+      "pearson_r": 0.269,
+      "pearson_p": 0.0005,
+      "spearman_r": 0.242,
+      "sign_agree": true
+    },
+    {
+      "i": 3,
+      "j": 11,
+      "item_i": "创作者署名",
+      "item_j": "封闭生态竞争",
+      "pearson_r": 0.267,
+      "pearson_p": 0.0006,
+      "spearman_r": 0.257,
+      "sign_agree": true
+    }
+  ],
+  "strength_top5": [
+    {
+      "item": "复杂工具信仰",
+      "strength_sum_abs_r": 4.24
+    },
+    {
+      "item": "完美主义/MVP",
+      "strength_sum_abs_r": 4.193
+    },
+    {
+      "item": "团队依恋",
+      "strength_sum_abs_r": 4.036
+    },
+    {
+      "item": "时代 vs 永恒",
+      "strength_sum_abs_r": 4.013
+    },
+    {
+      "item": "资产开源",
+      "strength_sum_abs_r": 3.988
+    }
+  ],
+  "strength_bottom5": [
+    {
+      "item": "救世主情结",
+      "strength_sum_abs_r": 2.6
+    },
+    {
+      "item": "审美反民粹",
+      "strength_sum_abs_r": 2.534
+    },
+    {
+      "item": "天赋信仰",
+      "strength_sum_abs_r": 2.503
+    },
+    {
+      "item": "黑盒透明度",
+      "strength_sum_abs_r": 2.367
+    },
+    {
+      "item": "弱势群体优先",
+      "strength_sum_abs_r": 2.335
+    }
+  ],
+  "figures": [
+    "figures/L6_inter_item_heatmap.png",
+    "figures/L6_inter_item_strength.png"
+  ]
+}

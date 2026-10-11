@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我习惯先从全局入手，把所有零散的信息整合成一个清晰的框架。只有明确了整体逻辑，才能判断我们的边界在哪里，哪些是可以调整的，哪些是绝对不能动的。这种方式能让我在复杂的决策中保持清晰，避免陷入细节而忽略了核心目标。",
+  "inferred_factor": "C",
+  "inferred_subtype": "C2",
+  "evidence_quote": "把零散观察整合为一个统摄全局的核心设计逻辑",
+  "evidence_source": "Q2_cardid",
+  "confidence": "high",
+  "reason_if_low": ""
+}

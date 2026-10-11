@@ -1,0 +1,160 @@
+# config_v2.yaml
+# Framework v1.1 (2026-05-25 Path D 锁) + v3.7 patch (无 cluster, trait-continuous)
+# Loss: L_lm only.  Path γ: skip phase 1.
+
+# ───────────────────────── paths ─────────────────────────
+paths:
+  data_v3:                    "data_v3"
+  task_responses:             "data_v3/task_responses.csv"
+  scale_responses:            "data_v3/scale_responses.csv"
+  users:                      "data_v3/users.csv"
+  efa_loadings:               "data/efa_loadings.csv"          # 30 x 4 (复用旧 EFA)
+  q1q6_option_labels:         "data_v3/processed/q1q6_option_labels.jsonl"
+  q2_training_labels:         "data_v3/processed/q2_training_labels.jsonl"
+  q1q6_expansion_outputs:     "data_v3/processed/q1q6_expansion_outputs.jsonl"
+  q7_extracted_v8_7:          "data_v3/processed/q7_extracted_v8.7_full.jsonl"
+  factor_scores_out:          "data_v3/processed/user_factor_scores.csv"
+  sft_v2_out_dir:             "data_v3/processed/sft_v2"        # per-fold jsonl
+  ckpt_dir:                   "ckpts/v2"
+  gen_dir:                    "gen/v2"
+  report_dir:                 "reports/v2"
+
+# ───────────────────────── model ─────────────────────────
+model:
+  base_model:                 "Qwen/Qwen2.5-7B-Instruct"
+  remote_base_model:          "/data/dhf/chain_critic/model/Qwen2.5-7B-Instruct/"  # 远程借 dhf
+  lora:
+    r:                        32
+    alpha:                    64
+    dropout:                  0.05
+    target_modules:           [q_proj, k_proj, v_proj, o_proj]
+
+# ───────────────────────── training ─────────────────────────
+train:
+  loss:                       "lm_only"            # ✅ Path A (framework v1.1 + user 2026-05-25 拍)
+                                                    #    L_lm = token CE on full completion
+                                                    #    routing 段 + NL 段同一 sequence, gradient 自动加权
+  optimizer:                  "adamw"
+  lr:                         1.0e-4
+  weight_decay:               0.01
+  scheduler:                  "cosine"
+  warmup_steps:               100
+  epochs:                     5
+  batch_size:                 32
+  grad_accum_steps:           1
+  max_seq_len:                4096
+  bf16:                       true
+  gradient_checkpointing:     true
+  seed:                       42
+  # T-W ablation (修 P-blindness, 默认 null = 跟 cloud baseline 一致 unweighted)
+  # 设成 {P: 2.0, K: 1.0, V: 1.0, C: 0.8} 给 P-token loss 2x 权重, 给 C-token 0.8x
+  # SFTDataset 看到 class_weights 非空就给 [认知路由标签] 段 PKVC token 加权.
+  class_weights:              null                  # 例: {P: 2.0, K: 1.0, V: 1.0, C: 0.8}
+
+# ───────────────────────── data ─────────────────────────
+data:
+  n_folds:                    5                    # designer-level CV
+  stratify_by:                "factor_quartile"    # v3.7 trait-stratified (按 F1-F4 quartile)
+  profile_noise_multiplier:   3                    # ×3 augment (随机 ±1 likert, 4-档 NL 重算)
+  profile_noise_likert_delta: 1
+  lexical_aug_multiplier:     0                    # 默认不开 lexical scenario aug
+  quality_tier_filter:        "primary"            # Q2 fallback 池默认不取 (115 primary only)
+                                                    # 改 "all" 才用 163 全池
+
+# ───────────────────────── prompt baselines ─────────────────────────
+# framework v1.1 §1 baseline 矩阵, framework v1.1 §8 RolePlayPromptConfig
+baselines:
+  B0:                                              # cold (无 profile / 无 peer / 无 own)
+    profile:                  false
+    own_responses:            false
+    own_quads:                false
+    peer_raw_nl:              false
+  B1:                                              # profile only
+    profile:                  true
+    own_responses:            false
+    own_quads:                false
+    peer_raw_nl:              false
+  B2:                                              # + peer raw-NL RAG
+    profile:                  true
+    own_responses:            false
+    own_quads:                false
+    peer_raw_nl:              true
+  B3:                                              # + own quads
+    profile:                  true
+    own_responses:            false
+    own_quads:                true
+    peer_raw_nl:              false
+  B4:                                              # + own response + own quads
+    profile:                  true
+    own_responses:            true
+    own_quads:                true
+    peer_raw_nl:              false
+  B5:                                              # full known-user
+    profile:                  true
+    own_responses:            true
+    own_quads:                true
+    peer_raw_nl:              true
+
+# 训练默认 baseline. eval 时通过 prompt-level toggle 跑全 6 个.
+train_baseline:               "B5"                 # 主训练 B5 (信息最全), eval 跑 B0-B5
+
+# ───────────────────────── scenario_text ─────────────────────────
+# framework v1.1 lock #15 锁: 训练 Q1-Q6 共用全感知效率空间; 评测 Q7 用老城区超市
+scenario_text:
+  training: |
+    项目场景: 全感知效率空间
+
+    某互联网大厂提出一项设计委托: 为公司 5,000 名员工打造一个"全感知效率空间" — 该空间将
+    通过穿戴设备 (EEG 脑电监测 + 心率 + 皮电) + 工位 IoT (光照/温湿度自动调节) + 手机 App
+    (任务调度 + 焦点状态可视化) 三层协同, 实时感知员工的认知状态 (专注度 / 焦虑值 /
+    疲劳度), 自动微调环境参数 + 推送任务建议, 目标"提升 30% 工作效率, 同时改善心理健康
+    指标"。
+
+    项目预算 5,000 万人民币, 12 个月内交付一期产品 (穿戴硬件 + 工位改造 + App), 5,000 名
+    员工内部全量推行。老板对设计师的核心期望: 既"科技感强"又"低打扰", 既能"客观量化"
+    又"尊重隐私", 既"效率优先"又"以人为本"。
+
+    作为这个项目的主创设计师, 您将面对硬件形态 / 数据合规 / AI 协作 / 上线节奏等多个
+    冲突决策. 请按下面提的问题, 以第一人称回答。
+
+  evaluation: |
+    项目场景: 老城区超级社区超市数字化改造
+
+    某连锁商超集团想把一家位于老城区的 4,000 平米超级社区超市 (60 岁以上银发用户占比
+    超 40%, 周边居民 2 万人) 改造成"全自动无人化数据中心" — 拆除所有人工收银台, 改成
+    扫码/人脸/动线追踪三合一; 必需品 (米油卫生纸) 从入口可见区域移到深处, 入口陈列改
+    成"高毛利冲动消费"商品 (零食 / 化妆品 / 数码); 所有商品价格根据每 15 分钟客流量
+    + 库存 + 时段动态浮动; 后台 AI 实时分析每个用户在店内的注视轨迹 + 拿放频率, 推送
+    个性化优惠到手机 (前提是用户曾用过会员系统留过手机号)。
+
+    集团给出 KPI: 6 个月内坪效提升 35%, 客单价提升 20%, 人力成本下降 60%。
+
+    您是被聘请的资深消费空间设计师/设计总监, 负责这个改造项目的整体设计决策. 请按下面
+    提的问题, 以第一人称回答 (覆盖 3 段: 直觉第一反应 → PKVC 12 cardId 优先级权衡 →
+    最终底线决策)。
+
+# ───────────────────────── inference ─────────────────────────
+infer:
+  temperature:                0.7
+  top_p:                      0.9
+  max_new_tokens:             512
+  do_sample:                  true
+  n_samples_per_user:         1                    # eval 默认 greedy-ish; best-of-N 留 ablation
+
+# ───────────────────────── eval ─────────────────────────
+eval:
+  v8_7_extractor_model:       "gpt-4o"              # 用于抽 generated Q7.segN 的 PKVC label
+  embed_model:                "text-embedding-3-small"
+  llm_judge_model:            "gpt-4o"
+  alt_label_eval:             true                  # framework v1.1 lock #19: ambiguous primary hit alt 也算
+
+# ───────────────────────── phase 0 sanity ─────────────────────────
+phase0:
+  n_users:                    5
+  max_seq_len:                1024
+  batch_size:                 2
+  epochs:                     1
+  fold_idx:                   0
+  baseline:                   "B1"                  # 最小 prompt (profile only)
+  device:                     "cpu"                 # 或 "cuda" 如果可用
+  log_loss_every:             1

@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我认为科学和数据是设计的基础，尤其是面对复杂问题时，准确的数据能提供客观依据，减少主观偏差。工程部门的方案既有高准确率，又能直接落地，这种情况下我会优先选择科学性强的路径，而不是让其他因素干扰决策。",
+  "inferred_factor": "K",
+  "inferred_subtype": "K1",
+  "evidence_quote": "大数据对城市空间设计具有重要价值，只有越精确的人群数据才能更精确的判断研究人的时空行为模式。",
+  "evidence_source": "Q7_B2",
+  "confidence": "high",
+  "reason_if_low": ""
+}

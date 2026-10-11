@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我更关注用户在真实场景中的具体需求，而不是停留在宏观的道德议题上。设计的目标是解决问题，只有找到用户真正敏感的点，才能让方案落地并有价值。",
+  "inferred_factor": "C",
+  "inferred_subtype": "C2",
+  "evidence_quote": "把这个宏大的道德议题，降维拆解成一个个极其具体的痛点需求。",
+  "evidence_source": "Q4_seed",
+  "confidence": "high",
+  "reason_if_low": ""
+}

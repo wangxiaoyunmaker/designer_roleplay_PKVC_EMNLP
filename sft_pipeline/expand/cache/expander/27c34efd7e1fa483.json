@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我会先拆解问题，把复杂的需求分解成几个具体子问题，确保每个部分都能被清晰理解。接着设立原则底线，明确哪些是必须坚持的核心价值。最后评估技术可行性，判断现有工具和资源能否支持方案落地，这样才能保证设计既有方向又能执行。",
+  "inferred_factor": "P",
+  "inferred_subtype": "P2",
+  "evidence_quote": "将复杂的总委托拆解为几个具体的子问题",
+  "evidence_source": "Q2_cardid",
+  "confidence": "high",
+  "reason_if_low": ""
+}

@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "AI只是工具，能帮我节省机械化的时间，但它无法替代人脑的灵活性。我更关注用户行为背后的逻辑，比如情绪变化和需求转移，这些是机器无法完全触及的领域，也是设计真正需要解决的问题。",
+  "inferred_factor": "C",
+  "inferred_subtype": "C3",
+  "evidence_quote": "AI只是一种整合了大量经验的工具，商业的计算是根据以往的使用经验得出的一种大致趋势。",
+  "evidence_source": "Q7_B1",
+  "confidence": "high",
+  "reason_if_low": ""
+}

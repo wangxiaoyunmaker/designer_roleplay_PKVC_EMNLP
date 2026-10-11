@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "设计的前提是合法合规合理，这不仅是底线，也是后续设计的基础。只有明确了法律和商业数据的边界，才能确保方案在执行时不会踩雷。我会优先调阅相关法案和竞品协议，先把能做的范围框定清楚，再去考虑其他设计细节。",
+  "inferred_factor": "C",
+  "inferred_subtype": "C3",
+  "evidence_quote": "设计的前提是合法合规合理",
+  "evidence_source": "Q4_seed",
+  "confidence": "high",
+  "reason_if_low": ""
+}

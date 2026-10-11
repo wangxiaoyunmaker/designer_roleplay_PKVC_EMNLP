@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我选了按时上线，因为产品不是一次性的，后续迭代可以补足细节。市场先发优势是机会窗口，错过了可能就没法弥补。焦虑缓解和边缘用户的优化虽然重要，但可以在二期工程中逐步完善，先抢占市场是更实际的选择。",
+  "inferred_factor": "C",
+  "inferred_subtype": "C2",
+  "evidence_quote": "非一次性产品，后续可升级",
+  "evidence_source": "Q6_seed",
+  "confidence": "high",
+  "reason_if_low": ""
+}

@@ -1,0 +1,177 @@
+# SFT pipeline 全局配置 (v3.7 — trait-continuous, post-datav3)
+# 改 base_model / direction / fold 即可切换实验
+#
+# v3.7 升级 (见 docs/briefs/v3.7_patch_post_datav3_20260524.md):
+#   - cluster_file [DEPRECATED]: cluster 弱区分实证后改 trait-stratified
+#   - factor_scores_file 主导: 4-d EFA factor → conditioning + sampler 分位 + RAG similarity
+#   - RAG: 簇内 → 全局 trait-similarity (默认), og_rag 仍 ablation 之一
+#   - sampler: cluster_balanced → trait_stratified (按 F1 分位 4 stratum)
+#   - L_cls 砍掉 (cluster 不可信), L_trait_reg 新加 (trait factor 回归)
+#   - L_cc 保留 (CAPS connection 不是 cluster classification)
+#   - enable_legacy_cls: true 可回退 v3.5.1 行为 (实验复现用)
+#
+# v3.5.1 legacy lock (now deprecated):
+#   - cluster_file 必须存在, train.py 启动时 _resolve_n_clusters 从此文件读 K (auto-pick)
+#   - 79 → 200 切换时改 cluster_file 路径即可, K=auto resolved (现 K=6 是 79 pilot, 200 后重定)
+#   - mapping_miner.py 通过 --cluster-csv 同一文件 + --derive-folds 复用 data_prep.assign_folds
+
+base_model:
+  # 借用 dhf 用户已下载的完整权重 (4 个 safetensors), 避免重复下载
+  # share 的 hf cache 只有 11MB tokenizer, 无权重, 不能用
+  # 跑前 verify: ls /data/dhf/chain_critic/model/Qwen2.5-7B-Instruct/*.safetensors
+  name: /data/dhf/chain_critic/model/Qwen2.5-7B-Instruct
+  torch_dtype: bfloat16
+  device_map: auto
+  attn_implementation: sdpa             # pytorch native; flash_attn 没装绕过, 慢 ~15%
+  # 备选升级路径 (改 name 即可):
+  #   /data/dhf/chain_critic/model/Qwen3.5-9B
+  #   /data/dhf/chain_critic/model/Qwen3.6-27B  (A800 80G 边界, batch 要小)
+
+lora:
+  r: 32
+  alpha: 64
+  dropout: 0.05
+  target_modules: [q_proj, k_proj, v_proj, o_proj]
+  bias: none
+
+data:
+  raw_dir: /home/wy/RolePlay_Designer/0512技术方案/data
+  processed_dir: /home/wy/RolePlay_Designer/0512技术方案/data/processed
+  # cluster_file: K=6 (79-pilot EFA best) — switch to v2_200 file after 200 入袋 + EFA 重跑.
+  # train.py:_resolve_n_clusters reads K from here at startup, do NOT hardcode K elsewhere.
+  cluster_file: /home/wy/RolePlay_Designer/0512技术方案/data/user_cluster_efa.csv
+  # cluster_file: /home/wy/RolePlay_Designer/0512技术方案/data/user_cluster_efa_v2_200.csv   # post-200 swap
+
+  # EFA factor scores (v3.5.1 §4D mapping miner input)
+  factor_scores_file: /home/wy/RolePlay_Designer/0512技术方案/data/user_factor_scores.csv
+
+  # 双方向数据源
+  direction_q7:                          # 方向一: Q7 训, Q1-Q6 评 (对照)
+    train_source: q7_segments            # 200 designer × 3 段
+    eval_source: q1q6
+    sample_split: per_segment            # B1/B2/B3 三个 task
+  direction_q1q6:                        # 方向二: Q1-Q6 训, Q7 评 (主, 老师 2026-05-20 拍板)
+    train_source: q1q6_answers           # 200 designer × 6 题
+    eval_source: q7
+    sample_split: per_question           # 单步
+
+  # 共享: RAG / Profile
+  rag:
+    mode: trait_similarity               # v3.7 default; one of:
+                                          #   trait_similarity   = v3.7 default (4-d factor cosine, 全局)
+                                          #   cosine             = brief v3.4 legacy (NL embedding cosine, 簇内)
+                                          #   og_rag             = ontology hypergraph set cover (簇内 deprecated → 全局)
+                                          #   modulation         = brief v3.5.1 §4D quad s_secondary
+                                          #   trait_similarity+modulation = main RAG-abl candidate (v3.7)
+                                          #   og_rag+modulation  = legacy v3.6 main candidate
+    k: 3                                 # peer top-3
+    similarity: cosine
+    exclude_self: true
+    scope: global                        # v3.7: 'global' (default) or 'cluster' (legacy)
+    # modulation_file 仅 mode 含 "modulation" 时需要, per fold 一份:
+    modulation_file_template: "{processed_dir}/modulation_fold_{fold}.jsonl"
+  profile:
+    polarity_thresholds:                 # 6 点 Likert → 4 档极性
+      strong_minus: [1, 1]
+      weak_minus: [2, 3]
+      weak_plus: [4, 5]
+      strong_plus: [6, 6]
+
+training:
+  per_device_batch_size: 1               # = samples_per_cluster (used by ClusterBalancedSampler)
+  grad_accumulation: 5
+  # effective_batch_size = n_clusters × per_device_batch_size
+  # n_clusters resolved at runtime via train.py:_resolve_n_clusters from cluster_file
+  # (auto-pick K). Value here is a placeholder, overwritten by train.py at startup.
+  effective_batch_size: 24               # PLACEHOLDER — auto-resolved by train.py
+  learning_rate: 1.0e-4
+  warmup_steps: 100
+  num_epochs: 20                         # 2026-05-24: 10ep markdown 退化 (0% close tag), 退 20ep + seq=1024 (兼 input 保留 77% + 学 format)
+  max_seq_length: 1024                   # 2026-05-24: peer jsonl + seq=1280 CUDA driver error step 1 (frag/OOM); 退 1024 截 75% 但稳
+  bf16: true
+  gradient_checkpointing: true
+  save_steps: 100
+  eval_steps: 100
+  logging_steps: 10
+  seed: 42
+
+  # v3.7: 默认 trait_stratified (按 F1 分位 4 stratum); legacy cluster_balanced 仍可启
+  sampler: trait_stratified              # one of: trait_stratified (v3.7), cluster_balanced (v3.5.1 legacy)
+  n_strata: 4                            # v3.7: trait_stratified sampler 的 F1 分位数
+  cluster_balanced_batch: false          # [DEPRECATED v3.7]; v3.5.1 legacy switch (only sampler=cluster_balanced)
+
+# 多任务 loss 权重 (方向一 / 二 共用)
+# v3.7: L_cls 砍 (cluster 不可信), L_trait_reg 新加 (trait factor 回归), L_cc 保留
+loss:
+  direction_q7:                          # 方向一 per-segment
+    L_B1: 1.0
+    L_B2: 1.0
+    L_B3: 1.0
+    L_cc: 0.3                            # CAPS-contrastive (锚 B3 末端) — 保留 (理论层不依赖 cluster id)
+    L_trait_reg: 0.2                     # v3.7: 4-d EFA factor MSE (替代 L_cls)
+    L_cls: 0.0                           # [DEPRECATED v3.7] 设 >0 + enable_legacy_cls=true 可启
+    L_cs: 0.0                            # cross-scenario (仅情况 ①, Q8 数据)
+  direction_q1q6:                        # 方向二 per-question
+    L_pkvc: 1.0
+    L_answer: 1.0
+    L_cc: 0.3
+    L_trait_reg: 0.2                     # v3.7
+    L_cls: 0.0                           # [DEPRECATED v3.7]
+    L_cs: 0.0
+
+# β+++ 三轨 loss weights (output [PKVC 分析] / [决策签名] / [答案] 分段加权)
+# paper §6 ablation sweep: [(0.5,0.3,0.2), (0.7,0.2,0.1), (0.3,0.4,0.3), (0.6,0.2,0.2)]
+loss_weights:
+  pkvc_analysis: 0.5                     # α: designer voice fidelity (from text_supplement)
+  decision_signature: 0.3                # β: action signature (from option text + paraphrase)
+  answer_letter: 0.2                     # γ: MCQ aux (single letter CE)
+
+# Curriculum (仅方向一)
+# v3.7: stage_1 L_cls → L_trait_reg (一致)
+curriculum:
+  enable_for_direction_q7: true
+  stage_1_ratio: 0.33                    # 前 33%: only L_B1 + L_trait_reg (v3.7; 原 L_cls)
+  stage_2_ratio: 0.33                    # 中 33%: + L_B2 + L_cc
+  stage_3_ratio: 0.34                    # 后 33%: + L_B3 (+ L_cs)
+
+# Augmentation
+augmentation:
+  profile_noise:
+    enable: true
+    likert_delta: 1                      # ±1 Likert 扰动
+    multiplier: 3
+  lexical_aug:                           # P0-4 待决策
+    enable: false
+    multiplier: 3
+
+# 5-fold CV
+# v3.7: stratify_by 'trait_quartile' (F1 4 分位); 'cluster_id' = v3.5.1 legacy
+cv:
+  n_folds: 5
+  stratify_by: trait_quartile            # one of: trait_quartile (v3.7), cluster_id (legacy), none
+  fold_seed: 42
+
+# Inference
+inference:
+  decoding: greedy                       # 主路径
+  temperature: 0.0
+  max_new_tokens: 1024
+  fallback_best_of_n: 5                  # 若 trajectory 不稳
+
+# Auxiliary heads (v3.7: trait_reg_head 主, cls_head deprecated)
+auxiliary:
+  trait_reg_head:                        # v3.7: 4-d EFA factor 回归 (替代 cls_head)
+    enable: true
+    hidden_anchor: prompt_end            # prompt 末端 hidden state
+    trait_dim: 4                         # K_EFA (PA 推荐 4, datav3 L2 lock)
+  cls_head:                              # [DEPRECATED v3.7] cluster K-way classification
+    enable: false                        # v3.7 默认禁用; v3.5.1 实验复现时设 true
+    hidden_anchor: prompt_end
+    n_clusters: auto                     # 仅 enable=true 时用 (从 cluster_file 读)
+  cc_head:
+    hidden_anchor: response_end          # 方向一: B3 末端; 方向二: response 末端
+
+paths:
+  ckpt_dir: /home/wy/RolePlay_Designer/0512技术方案/sft_pipeline/ckpt
+  log_dir: /home/wy/RolePlay_Designer/0512技术方案/sft_pipeline/logs
+  pred_dir: /home/wy/RolePlay_Designer/0512技术方案/sft_pipeline/preds

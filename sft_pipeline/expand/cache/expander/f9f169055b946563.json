@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我习惯先把问题拆解清楚，再去找核心逻辑。因为如果问题本身没分解好，后续的设计和实现都会变得模糊，甚至方向错了。只有先明确问题，再用逻辑串起来，最后结合实际条件去解决，才能保证方案既有条理又落地。",
+  "inferred_factor": "P",
+  "inferred_subtype": "P2",
+  "evidence_quote": "先有问题，再有逻辑，再结合现实解决问题",
+  "evidence_source": "Q2_cardid",
+  "confidence": "high",
+  "reason_if_low": ""
+}

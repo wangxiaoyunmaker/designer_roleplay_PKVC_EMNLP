@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我更相信用户的实际反馈，而不是凭空假设。通过 A/B 测试，用户的选择会直接反映他们的真实需求，这比设计师的主观判断更可靠。市场反馈不仅能帮助我们优化方案，还能避免闭门造车，浪费资源。",
+  "inferred_factor": "K",
+  "inferred_subtype": "K2",
+  "evidence_quote": "市场反馈是最有价值的衡量标准",
+  "evidence_source": "Q5_seed",
+  "confidence": "high",
+  "reason_if_low": ""
+}

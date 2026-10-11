@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我认为在某些关键设计环节禁用 AI 是必要的，因为这能避免技术对设计伦理的侵蚀。即使会牺牲一些效率，但这能更好地保障用户隐私和知情权，避免因过度依赖 AI 而导致的潜在风险。我更看重长期的公信力，而非短期的效率提升。",
+  "inferred_factor": "C",
+  "inferred_subtype": "C1",
+  "evidence_quote": "必须优先保障用户知情权与隐私权，坚守设计伦理。",
+  "evidence_source": "Q7_B1",
+  "confidence": "high",
+  "reason_if_low": ""
+}

@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我更倾向于用数据说话，直接做低保真原型测试，能快速验证用户的真实购买意愿。这种方式既高效，又能避免主观判断的偏差，确保决策更贴近市场需求。",
+  "inferred_factor": "K",
+  "inferred_subtype": "K2",
+  "evidence_quote": "投放到市场进行小规模定量测试，让用户的购买意愿数据来替我做决定。",
+  "evidence_source": "Q3_seed",
+  "confidence": "high",
+  "reason_if_low": ""
+}

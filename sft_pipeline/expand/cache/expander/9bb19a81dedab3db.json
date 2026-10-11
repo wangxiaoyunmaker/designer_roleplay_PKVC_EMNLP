@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我觉得设计的顺序应该是先搞清楚问题，再用数据验证假设，接着参考经验，最后去实现。因为如果问题没界定清楚，后面的步骤都可能是无用功。数据和经验是辅助工具，但核心还是要明确目标和底线，这样才能保证设计方向不跑偏。",
+  "inferred_factor": "P",
+  "inferred_subtype": "P1",
+  "evidence_quote": "界定这个项目的核心底线和真实要解决的问题",
+  "evidence_source": "Q2_cardid",
+  "confidence": "high",
+  "reason_if_low": ""
+}

@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "AI 的效率提升让我可以放心地把时间和精力转移到更重要的地方，比如理解用户行为和深层次的情感需求。画图工具只是辅助，真正的价值在于解决那些 AI 触及不到的业务痛点，比如用户为什么会焦虑，或者他们的行为背后隐藏了什么样的逻辑。",
+  "inferred_factor": "C",
+  "inferred_subtype": "C3",
+  "evidence_quote": "用人脑探索AI无法触及的业务痛点。",
+  "evidence_source": "Q5_seed",
+  "confidence": "high",
+  "reason_if_low": ""
+}

@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我更倾向于用客观数据来判断问题，而不是依赖主观臆断。比如用户的抑郁和焦虑数据，能直接反映产品对情绪的影响，而传感器的精度测试则能验证技术的可靠性。这些都是决策的基础，避免因为个人偏见或不完整信息导致误判。",
+  "inferred_factor": "K",
+  "inferred_subtype": "K1",
+  "evidence_quote": "优先大部分用户的必要需求，再考虑数据和商业要求。",
+  "evidence_source": "Q7_B2",
+  "confidence": "high",
+  "reason_if_low": ""
+}

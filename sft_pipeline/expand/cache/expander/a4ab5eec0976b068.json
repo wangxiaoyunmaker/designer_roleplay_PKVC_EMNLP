@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我觉得人必须有自己的想法，AI只是工具，不能代替思考。先独立构思核心概念，才能确保设计的方向和价值是清晰的。AI的作用更适合在后期延展上，帮助提升效率和完善细节，而不是一开始就主导整个过程。这样才能让设计更有灵魂。",
+  "inferred_factor": "P",
+  "inferred_subtype": "P1",
+  "evidence_quote": "人必须要有想法，思路才能用AI去做更好的东西",
+  "evidence_source": "Q5_seed",
+  "confidence": "high",
+  "reason_if_low": ""
+}

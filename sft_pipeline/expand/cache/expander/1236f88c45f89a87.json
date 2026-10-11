@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我相信很多时候纸上谈兵解决不了问题，只有通过实际测试才能找到真正有效的答案。市场数据能直接反映用户的真实需求和行为，这比单纯依赖假设或理论更有说服力。低保真原型的好处是快速、灵活，能让我在不浪费太多资源的情况下验证方案的可行性。",
+  "inferred_factor": "C",
+  "inferred_subtype": "C2",
+  "evidence_quote": "实践决定认识",
+  "evidence_source": "Q3_seed",
+  "confidence": "high",
+  "reason_if_low": ""
+}

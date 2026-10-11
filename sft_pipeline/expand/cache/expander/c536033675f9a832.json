@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我习惯先找到项目的核心问题和底线，再从这里出发去拆解后续逻辑。这样做的好处是，能避免被表面的需求或数据牵着走，确保设计方向不偏离初心。只有先明确什么是必须守住的，后面的选择才有意义。",
+  "inferred_factor": "P",
+  "inferred_subtype": "P1",
+  "evidence_quote": "先想边界，再想方案，而不是先把方案接下来再事后补救。",
+  "evidence_source": "Q7_B2",
+  "confidence": "high",
+  "reason_if_low": ""
+}

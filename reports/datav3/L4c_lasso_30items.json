@@ -1,0 +1,391 @@
+{
+  "by_q": {
+    "Q1": {
+      "A": [
+        {
+          "item": "商业操纵伦理",
+          "coef": 0.263,
+          "marginal_perm_p": 0.228
+        },
+        {
+          "item": "资产开源",
+          "coef": 0.261,
+          "marginal_perm_p": 0.287
+        },
+        {
+          "item": "数据隐私交换",
+          "coef": 0.235,
+          "marginal_perm_p": 0.096
+        }
+      ],
+      "B": [
+        {
+          "item": "系统责任归属",
+          "coef": -0.38,
+          "marginal_perm_p": 0.012
+        },
+        {
+          "item": "时代 vs 永恒",
+          "coef": 0.325,
+          "marginal_perm_p": 0.06
+        },
+        {
+          "item": "商业操纵伦理",
+          "coef": 0.296,
+          "marginal_perm_p": 0.102
+        }
+      ],
+      "C": [
+        {
+          "item": "仿生与有机",
+          "coef": -0.229,
+          "marginal_perm_p": 0.259
+        },
+        {
+          "item": "系统微模块",
+          "coef": 0.22,
+          "marginal_perm_p": 0.387
+        },
+        {
+          "item": "混沌与灵感",
+          "coef": 0.185,
+          "marginal_perm_p": 0.377
+        }
+      ],
+      "D": [
+        {
+          "item": "数据 vs 直觉",
+          "coef": 0.537,
+          "marginal_perm_p": 0.04
+        },
+        {
+          "item": "团队依恋",
+          "coef": -0.465,
+          "marginal_perm_p": 0.108
+        },
+        {
+          "item": "封闭生态竞争",
+          "coef": -0.445,
+          "marginal_perm_p": 0.072
+        }
+      ]
+    },
+    "Q3": {
+      "A": [
+        {
+          "item": "天赋信仰",
+          "coef": -0.349,
+          "marginal_perm_p": 0.054
+        },
+        {
+          "item": "混沌与灵感",
+          "coef": 0.275,
+          "marginal_perm_p": 0.273
+        },
+        {
+          "item": "团队依恋",
+          "coef": 0.247,
+          "marginal_perm_p": 0.23
+        }
+      ],
+      "B": [
+        {
+          "item": "完美主义/MVP",
+          "coef": 0.164,
+          "marginal_perm_p": 0.519
+        },
+        {
+          "item": "弱势群体优先",
+          "coef": 0.147,
+          "marginal_perm_p": 0.345
+        },
+        {
+          "item": "创新代价",
+          "coef": -0.139,
+          "marginal_perm_p": 0.375
+        }
+      ],
+      "C": [
+        {
+          "item": "仿生与有机",
+          "coef": -0.861,
+          "marginal_perm_p": 0.028
+        },
+        {
+          "item": "数据 vs 直觉",
+          "coef": 0.692,
+          "marginal_perm_p": 0.054
+        },
+        {
+          "item": "AI 替代论",
+          "coef": -0.435,
+          "marginal_perm_p": 0.08
+        }
+      ],
+      "D": [
+        {
+          "item": "救世主情结",
+          "coef": 0.362,
+          "marginal_perm_p": 0.016
+        },
+        {
+          "item": "审美反民粹",
+          "coef": -0.288,
+          "marginal_perm_p": 0.02
+        },
+        {
+          "item": "仿生与有机",
+          "coef": 0.179,
+          "marginal_perm_p": 0.319
+        }
+      ]
+    },
+    "Q4": {
+      "A": [
+        {
+          "item": "本土文化妥协",
+          "coef": -0.341,
+          "marginal_perm_p": 0.046
+        },
+        {
+          "item": "股东服务优先",
+          "coef": 0.209,
+          "marginal_perm_p": 0.078
+        },
+        {
+          "item": "天赋信仰",
+          "coef": -0.161,
+          "marginal_perm_p": 0.335
+        }
+      ],
+      "B": [
+        {
+          "item": "股东服务优先",
+          "coef": -0.337,
+          "marginal_perm_p": 0.036
+        },
+        {
+          "item": "仿生与有机",
+          "coef": 0.33,
+          "marginal_perm_p": 0.168
+        },
+        {
+          "item": "秩序与防错",
+          "coef": -0.29,
+          "marginal_perm_p": 0.088
+        }
+      ],
+      "C": [
+        {
+          "item": "资产开源",
+          "coef": 0.759,
+          "marginal_perm_p": 0.002
+        },
+        {
+          "item": "黑盒透明度",
+          "coef": -0.364,
+          "marginal_perm_p": 0.13
+        },
+        {
+          "item": "风险规避",
+          "coef": -0.345,
+          "marginal_perm_p": 0.467
+        }
+      ],
+      "D": [
+        {
+          "item": "审美反民粹",
+          "coef": -0.36,
+          "marginal_perm_p": 0.054
+        },
+        {
+          "item": "数据 vs 直觉",
+          "coef": 0.3,
+          "marginal_perm_p": 0.539
+        },
+        {
+          "item": "创作者署名",
+          "coef": -0.282,
+          "marginal_perm_p": 0.036
+        }
+      ]
+    },
+    "Q5": {
+      "A": [
+        {
+          "item": "数据 vs 直觉",
+          "coef": -0.516,
+          "marginal_perm_p": 0.006
+        },
+        {
+          "item": "技术支持",
+          "coef": 0.417,
+          "marginal_perm_p": 0.004
+        },
+        {
+          "item": "封闭生态竞争",
+          "coef": 0.412,
+          "marginal_perm_p": 0.022
+        }
+      ],
+      "B": [
+        {
+          "item": "系统微模块",
+          "coef": -0.418,
+          "marginal_perm_p": 0.002
+        },
+        {
+          "item": "技术支持",
+          "coef": -0.405,
+          "marginal_perm_p": 0.002
+        },
+        {
+          "item": "完美主义/MVP",
+          "coef": -0.355,
+          "marginal_perm_p": 0.106
+        }
+      ],
+      "C": [
+        {
+          "item": "商业操纵伦理",
+          "coef": -0.461,
+          "marginal_perm_p": 0.004
+        },
+        {
+          "item": "技术支持",
+          "coef": -0.28,
+          "marginal_perm_p": 0.062
+        },
+        {
+          "item": "黑盒透明度",
+          "coef": -0.279,
+          "marginal_perm_p": 0.04
+        }
+      ],
+      "D": [
+        {
+          "item": "本土文化妥协",
+          "coef": -0.441,
+          "marginal_perm_p": 0.018
+        },
+        {
+          "item": "混沌与灵感",
+          "coef": -0.291,
+          "marginal_perm_p": 0.018
+        },
+        {
+          "item": "独裁 vs 委员会",
+          "coef": 0.288,
+          "marginal_perm_p": 0.098
+        }
+      ]
+    },
+    "Q6": {
+      "A": [
+        {
+          "item": "仿生与有机",
+          "coef": 0.437,
+          "marginal_perm_p": 0.014
+        },
+        {
+          "item": "本土文化妥协",
+          "coef": -0.293,
+          "marginal_perm_p": 0.044
+        },
+        {
+          "item": "系统责任归属",
+          "coef": 0.261,
+          "marginal_perm_p": 0.006
+        }
+      ],
+      "B": [
+        {
+          "item": "本土文化妥协",
+          "coef": 0.539,
+          "marginal_perm_p": 0.004
+        },
+        {
+          "item": "AI 替代论",
+          "coef": -0.51,
+          "marginal_perm_p": 0.126
+        },
+        {
+          "item": "商业操纵伦理",
+          "coef": 0.427,
+          "marginal_perm_p": 0.048
+        }
+      ],
+      "C": [
+        {
+          "item": "封闭生态竞争",
+          "coef": 0.471,
+          "marginal_perm_p": 0.387
+        },
+        {
+          "item": "系统责任归属",
+          "coef": -0.416,
+          "marginal_perm_p": 0.03
+        },
+        {
+          "item": "救世主情结",
+          "coef": -0.28,
+          "marginal_perm_p": 0.042
+        }
+      ]
+    },
+    "Q8": {
+      "A": [
+        {
+          "item": "创新代价",
+          "coef": -0.447,
+          "marginal_perm_p": 0.004
+        },
+        {
+          "item": "弱势群体优先",
+          "coef": -0.139,
+          "marginal_perm_p": 0.285
+        },
+        {
+          "item": "资产开源",
+          "coef": -0.111,
+          "marginal_perm_p": 0.291
+        }
+      ],
+      "B": [
+        {
+          "item": "系统微模块",
+          "coef": -0.253,
+          "marginal_perm_p": 0.016
+        },
+        {
+          "item": "复杂工具信仰",
+          "coef": -0.21,
+          "marginal_perm_p": 0.086
+        },
+        {
+          "item": "资产开源",
+          "coef": 0.133,
+          "marginal_perm_p": 0.852
+        }
+      ],
+      "C": [
+        {
+          "item": "股东服务优先",
+          "coef": 0.332,
+          "marginal_perm_p": 0.054
+        },
+        {
+          "item": "系统微模块",
+          "coef": 0.261,
+          "marginal_perm_p": 0.002
+        },
+        {
+          "item": "装饰合法性",
+          "coef": 0.256,
+          "marginal_perm_p": 0.082
+        }
+      ]
+    }
+  },
+  "total_observations": 22
+}

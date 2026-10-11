@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我认为功能是设计的根基，审美只能建立在稳固的基础上。数据准确性达到99%已经是工程部门的硬核成果，直接采用是最理性的选择。设计不能脱离客观性能去追求所谓的美感，否则就是舍本逐末，浪费资源。",
+  "inferred_factor": "P",
+  "inferred_subtype": "P1",
+  "evidence_quote": "审美是功能的上层建筑，地基不稳剩下的都是扯淡",
+  "evidence_source": "Q3_seed",
+  "confidence": "high",
+  "reason_if_low": ""
+}

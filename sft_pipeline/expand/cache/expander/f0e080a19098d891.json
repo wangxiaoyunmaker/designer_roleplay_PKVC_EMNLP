@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我倾向于尽可能全面地搜集信息，先明确项目的核心问题，再结合经验、数据和工具边界进行分析。这种方式能确保设计方案既有目标感，又能落地执行。同时，核心底线和用户需求是我最关注的部分，必须优先考虑。",
+  "inferred_factor": "P",
+  "inferred_subtype": "P1",
+  "evidence_quote": "界定这个项目的核心底线和真实要解决的问题",
+  "evidence_source": "Q2_cardid",
+  "confidence": "high",
+  "reason_if_low": ""
+}

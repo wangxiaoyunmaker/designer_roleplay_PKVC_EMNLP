@@ -1,0 +1,1220 @@
+{
+  "model": "B3",
+  "baseline": "B2",
+  "judge_model": "gpt-4o",
+  "dry_run": true,
+  "n_pairs": 20,
+  "report": {
+    "win": 2,
+    "lose": 1,
+    "tie": 17,
+    "total": 20,
+    "win_rate": 0.525,
+    "win_rate_strict": 0.1,
+    "per_question": {
+      "Q7_seg1": {
+        "win": 1,
+        "lose": 0,
+        "tie": 8,
+        "total": 9,
+        "win_rate": 0.5556
+      },
+      "Q7_seg2": {
+        "win": 1,
+        "lose": 0,
+        "tie": 3,
+        "total": 4,
+        "win_rate": 0.625
+      },
+      "Q7_seg3": {
+        "win": 0,
+        "lose": 1,
+        "tie": 6,
+        "total": 7,
+        "win_rate": 0.4286
+      }
+    }
+  },
+  "judgments": [
+    {
+      "user_id": "BuzhichunD",
+      "task_id": "Q7_seg3",
+      "final": "tie",
+      "rounds": [
+        {
+          "swap": false,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "cognitive_authenticity": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "scenario_grounding": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "linguistic_naturalness": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "final_verdict": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            }
+          },
+          "actual_winner": "tie"
+        },
+        {
+          "swap": true,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "cognitive_authenticity": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "scenario_grounding": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "linguistic_naturalness": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "final_verdict": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            }
+          },
+          "actual_winner": "tie"
+        }
+      ]
+    },
+    {
+      "user_id": "XXXXXYXYY",
+      "task_id": "Q7_seg1",
+      "final": "tie",
+      "rounds": [
+        {
+          "swap": false,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "cognitive_authenticity": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "scenario_grounding": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "linguistic_naturalness": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "final_verdict": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            }
+          },
+          "actual_winner": "baseline"
+        },
+        {
+          "swap": true,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "cognitive_authenticity": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "scenario_grounding": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "linguistic_naturalness": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "final_verdict": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            }
+          },
+          "actual_winner": "model"
+        }
+      ]
+    },
+    {
+      "user_id": "qingingingya",
+      "task_id": "Q7_seg2",
+      "final": "win",
+      "rounds": [
+        {
+          "swap": false,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "cognitive_authenticity": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "scenario_grounding": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "linguistic_naturalness": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "final_verdict": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            }
+          },
+          "actual_winner": "model"
+        },
+        {
+          "swap": true,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "cognitive_authenticity": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "scenario_grounding": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "linguistic_naturalness": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "final_verdict": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            }
+          },
+          "actual_winner": "model"
+        }
+      ]
+    },
+    {
+      "user_id": "dreamemory1",
+      "task_id": "Q7_seg1",
+      "final": "tie",
+      "rounds": [
+        {
+          "swap": false,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "cognitive_authenticity": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "scenario_grounding": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "linguistic_naturalness": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "final_verdict": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            }
+          },
+          "actual_winner": "baseline"
+        },
+        {
+          "swap": true,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "cognitive_authenticity": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "scenario_grounding": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "linguistic_naturalness": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "final_verdict": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            }
+          },
+          "actual_winner": "tie"
+        }
+      ]
+    },
+    {
+      "user_id": "pear_1007",
+      "task_id": "Q7_seg3",
+      "final": "tie",
+      "rounds": [
+        {
+          "swap": false,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "cognitive_authenticity": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "scenario_grounding": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "linguistic_naturalness": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "final_verdict": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            }
+          },
+          "actual_winner": "tie"
+        },
+        {
+          "swap": true,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "cognitive_authenticity": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "scenario_grounding": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "linguistic_naturalness": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "final_verdict": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            }
+          },
+          "actual_winner": "tie"
+        }
+      ]
+    },
+    {
+      "user_id": "13218745867",
+      "task_id": "Q7_seg1",
+      "final": "win",
+      "rounds": [
+        {
+          "swap": false,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "cognitive_authenticity": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "scenario_grounding": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "linguistic_naturalness": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "final_verdict": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            }
+          },
+          "actual_winner": "model"
+        },
+        {
+          "swap": true,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "cognitive_authenticity": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "scenario_grounding": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "linguistic_naturalness": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "final_verdict": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            }
+          },
+          "actual_winner": "model"
+        }
+      ]
+    },
+    {
+      "user_id": "yl2228037267",
+      "task_id": "Q7_seg1",
+      "final": "tie",
+      "rounds": [
+        {
+          "swap": false,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "cognitive_authenticity": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "scenario_grounding": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "linguistic_naturalness": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "final_verdict": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            }
+          },
+          "actual_winner": "tie"
+        },
+        {
+          "swap": true,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "cognitive_authenticity": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "scenario_grounding": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "linguistic_naturalness": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "final_verdict": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            }
+          },
+          "actual_winner": "baseline"
+        }
+      ]
+    },
+    {
+      "user_id": "A18136227080",
+      "task_id": "Q7_seg1",
+      "final": "tie",
+      "rounds": [
+        {
+          "swap": false,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "cognitive_authenticity": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "scenario_grounding": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "linguistic_naturalness": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "final_verdict": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            }
+          },
+          "actual_winner": "tie"
+        },
+        {
+          "swap": true,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "cognitive_authenticity": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "scenario_grounding": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "linguistic_naturalness": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "final_verdict": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            }
+          },
+          "actual_winner": "model"
+        }
+      ]
+    },
+    {
+      "user_id": "JupiterStormRoaring",
+      "task_id": "Q7_seg3",
+      "final": "tie",
+      "rounds": [
+        {
+          "swap": false,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "cognitive_authenticity": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "scenario_grounding": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "linguistic_naturalness": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "final_verdict": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            }
+          },
+          "actual_winner": "tie"
+        },
+        {
+          "swap": true,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "cognitive_authenticity": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "scenario_grounding": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "linguistic_naturalness": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "final_verdict": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            }
+          },
+          "actual_winner": "model"
+        }
+      ]
+    },
+    {
+      "user_id": "kuronim",
+      "task_id": "Q7_seg1",
+      "final": "tie",
+      "rounds": [
+        {
+          "swap": false,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "cognitive_authenticity": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "scenario_grounding": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "linguistic_naturalness": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "final_verdict": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            }
+          },
+          "actual_winner": "tie"
+        },
+        {
+          "swap": true,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "cognitive_authenticity": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "scenario_grounding": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "linguistic_naturalness": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "final_verdict": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            }
+          },
+          "actual_winner": "model"
+        }
+      ]
+    },
+    {
+      "user_id": "Hreiy888",
+      "task_id": "Q7_seg3",
+      "final": "tie",
+      "rounds": [
+        {
+          "swap": false,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "cognitive_authenticity": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "scenario_grounding": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "linguistic_naturalness": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "final_verdict": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            }
+          },
+          "actual_winner": "baseline"
+        },
+        {
+          "swap": true,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "cognitive_authenticity": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "scenario_grounding": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "linguistic_naturalness": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "final_verdict": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            }
+          },
+          "actual_winner": "tie"
+        }
+      ]
+    },
+    {
+      "user_id": "13224246380",
+      "task_id": "Q7_seg2",
+      "final": "tie",
+      "rounds": [
+        {
+          "swap": false,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "cognitive_authenticity": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "scenario_grounding": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "linguistic_naturalness": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "final_verdict": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            }
+          },
+          "actual_winner": "tie"
+        },
+        {
+          "swap": true,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "cognitive_authenticity": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "scenario_grounding": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "linguistic_naturalness": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "final_verdict": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            }
+          },
+          "actual_winner": "tie"
+        }
+      ]
+    },
+    {
+      "user_id": "695475971",
+      "task_id": "Q7_seg2",
+      "final": "tie",
+      "rounds": [
+        {
+          "swap": false,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "cognitive_authenticity": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "scenario_grounding": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "linguistic_naturalness": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "final_verdict": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            }
+          },
+          "actual_winner": "model"
+        },
+        {
+          "swap": true,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "cognitive_authenticity": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "scenario_grounding": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "linguistic_naturalness": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "final_verdict": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            }
+          },
+          "actual_winner": "tie"
+        }
+      ]
+    },
+    {
+      "user_id": "Gillion888888",
+      "task_id": "Q7_seg1",
+      "final": "tie",
+      "rounds": [
+        {
+          "swap": false,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "cognitive_authenticity": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "scenario_grounding": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "linguistic_naturalness": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "final_verdict": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            }
+          },
+          "actual_winner": "baseline"
+        },
+        {
+          "swap": true,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "cognitive_authenticity": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "scenario_grounding": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "linguistic_naturalness": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "final_verdict": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            }
+          },
+          "actual_winner": "tie"
+        }
+      ]
+    },
+    {
+      "user_id": "13224246380",
+      "task_id": "Q7_seg1",
+      "final": "tie",
+      "rounds": [
+        {
+          "swap": false,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "cognitive_authenticity": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "scenario_grounding": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "linguistic_naturalness": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "final_verdict": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            }
+          },
+          "actual_winner": "baseline"
+        },
+        {
+          "swap": true,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "cognitive_authenticity": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "scenario_grounding": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "linguistic_naturalness": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "final_verdict": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            }
+          },
+          "actual_winner": "model"
+        }
+      ]
+    },
+    {
+      "user_id": "h18717957422",
+      "task_id": "Q7_seg3",
+      "final": "tie",
+      "rounds": [
+        {
+          "swap": false,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "cognitive_authenticity": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "scenario_grounding": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "linguistic_naturalness": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "final_verdict": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            }
+          },
+          "actual_winner": "tie"
+        },
+        {
+          "swap": true,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "cognitive_authenticity": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "scenario_grounding": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "linguistic_naturalness": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "final_verdict": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            }
+          },
+          "actual_winner": "baseline"
+        }
+      ]
+    },
+    {
+      "user_id": "lx96829091",
+      "task_id": "Q7_seg2",
+      "final": "tie",
+      "rounds": [
+        {
+          "swap": false,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "cognitive_authenticity": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "scenario_grounding": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "linguistic_naturalness": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "final_verdict": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            }
+          },
+          "actual_winner": "tie"
+        },
+        {
+          "swap": true,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "cognitive_authenticity": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "scenario_grounding": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "linguistic_naturalness": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "final_verdict": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            }
+          },
+          "actual_winner": "tie"
+        }
+      ]
+    },
+    {
+      "user_id": "18701423449",
+      "task_id": "Q7_seg3",
+      "final": "lose",
+      "rounds": [
+        {
+          "swap": false,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "cognitive_authenticity": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "scenario_grounding": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "linguistic_naturalness": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "final_verdict": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            }
+          },
+          "actual_winner": "baseline"
+        },
+        {
+          "swap": true,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "cognitive_authenticity": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "scenario_grounding": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "linguistic_naturalness": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "final_verdict": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            }
+          },
+          "actual_winner": "baseline"
+        }
+      ]
+    },
+    {
+      "user_id": "18007888805",
+      "task_id": "Q7_seg3",
+      "final": "tie",
+      "rounds": [
+        {
+          "swap": false,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "cognitive_authenticity": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "scenario_grounding": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "linguistic_naturalness": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "final_verdict": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            }
+          },
+          "actual_winner": "model"
+        },
+        {
+          "swap": true,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "cognitive_authenticity": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "scenario_grounding": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "linguistic_naturalness": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "final_verdict": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            }
+          },
+          "actual_winner": "baseline"
+        }
+      ]
+    },
+    {
+      "user_id": "GalaxieFiveHundred",
+      "task_id": "Q7_seg1",
+      "final": "tie",
+      "rounds": [
+        {
+          "swap": false,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            },
+            "cognitive_authenticity": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "scenario_grounding": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "linguistic_naturalness": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "final_verdict": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            }
+          },
+          "actual_winner": "model"
+        },
+        {
+          "swap": true,
+          "raw_verdict": {
+            "persona_fidelity": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "cognitive_authenticity": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "scenario_grounding": {
+              "winner": "Tie",
+              "reason": "[mock] random pick Tie"
+            },
+            "linguistic_naturalness": {
+              "winner": "B",
+              "reason": "[mock] random pick B"
+            },
+            "final_verdict": {
+              "winner": "A",
+              "reason": "[mock] random pick A"
+            }
+          },
+          "actual_winner": "baseline"
+        }
+      ]
+    }
+  ]
+}

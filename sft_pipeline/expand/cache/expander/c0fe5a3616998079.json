@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我习惯先把项目的核心逻辑梳理清楚，再参考过往经验或行业案例来验证可行性。这样可以确保设计方向明确，同时避免陷入过于主观的思路里。最后再回过头去调整细节，确保整体方案能够兼顾实际需求和用户体验。",
+  "inferred_factor": "P",
+  "inferred_subtype": "P1",
+  "evidence_quote": "先构建总体逻辑然后参考经验，再回头去想",
+  "evidence_source": "Q2_cardid",
+  "confidence": "high",
+  "reason_if_low": ""
+}

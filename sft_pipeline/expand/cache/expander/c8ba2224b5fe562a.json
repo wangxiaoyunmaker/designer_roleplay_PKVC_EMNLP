@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我不喜欢主观争论，尤其是这种涉及合规和商业边界的问题。先把数据和法案调出来，明确底线和边界，才能知道接下来怎么做。执行要基于事实，而不是靠拍脑袋。只有这样，才能避免后续方案在关键点上出问题，浪费时间和资源。",
+  "inferred_factor": "K",
+  "inferred_subtype": "K2",
+  "evidence_quote": "用法律底线和客观商业数据来重新界定我们到底能做什么。",
+  "evidence_source": "Q4_seed",
+  "confidence": "high",
+  "reason_if_low": ""
+}

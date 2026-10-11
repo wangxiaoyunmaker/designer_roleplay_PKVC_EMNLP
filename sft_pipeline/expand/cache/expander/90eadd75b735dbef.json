@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我习惯从抽象到具象，先把问题拆解清楚，再逐步找到解决方案。面对复杂的委托，直接上手容易陷入混乱，所以我会先理清核心矛盾，明确底线，再把大问题分解成几个小问题，逐一解决。这样不仅能确保方向正确，也能让后续的设计更有条理，避免返工。",
+  "inferred_factor": "P",
+  "inferred_subtype": "P2",
+  "evidence_quote": "将复杂的总委托拆解为几个具体的子问题",
+  "evidence_source": "Q2_cardid",
+  "confidence": "high",
+  "reason_if_low": ""
+}

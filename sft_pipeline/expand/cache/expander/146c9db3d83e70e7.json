@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我习惯从场景出发，先想清楚产品的形态和使用逻辑，再去优化细节。比如它和手机 App 的协同，我会特别关注自然顺畅的体验，避免让用户觉得打扰或别扭。这种场景化的设计能让我抓住核心问题，确保产品真正服务于用户的需求。",
+  "inferred_factor": "P",
+  "inferred_subtype": "P1",
+  "evidence_quote": "我会先在脑中形成产品形态和使用场景，想象它如何与手机 App 协同。",
+  "evidence_source": "Q1_seed",
+  "confidence": "high",
+  "reason_if_low": ""
+}

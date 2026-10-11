@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我习惯用 PDCA 的逻辑去拆解问题，先明确核心需求和底线，再逐步优化。比如老城区超市的案例，我会先界定哪些是不能妥协的伦理约束，然后通过数据和经验找到平衡点。设计不是一蹴而就的，而是一个动态调整的过程，必须在实践中不断迭代。",
+  "inferred_factor": "P",
+  "inferred_subtype": "P1",
+  "evidence_quote": "先明确核心需求和底线，再逐步优化。",
+  "evidence_source": "Q7_B2",
+  "confidence": "high",
+  "reason_if_low": ""
+}

@@ -1,0 +1,55 @@
+# config_v3.yaml — SFT v3 (docs/briefs/sft_data_format_v1.md v1.1)
+# 砍 ④ peer + ⑥ criterion + 加 Q1/Q2 进训 + 80/20 by (designer, Q) pair
+# Loss curriculum: stage 1 warmup (L_lm only, 1 ep) → stage 2 main (TODO) → stage 3 refine (TODO)
+
+# ───────────────────────── paths ─────────────────────────
+paths:
+  data_v3:                    "data_v3"
+  task_responses:             "data_v3/task_responses.csv"
+  scale_responses:            "data_v3/scale_responses.csv"
+  users:                      "data_v3/users.csv"
+  q1q6_option_labels:         "data_v3/processed/q1q6_option_labels.jsonl"
+  q2_training_labels:         "data_v3/processed/q2_training_labels.jsonl"
+  q1q6_expansion_outputs:     "data_v3/processed/q1q6_expansion_outputs.jsonl"
+  quad_extracted:             "data_v3/processed/quad_extracted_163_fixed.jsonl"
+  sft_train_jsonl:            "data_v3/processed/sft_train.jsonl"
+  sft_val_jsonl:              "data_v3/processed/sft_val.jsonl"
+  ckpt_dir:                   "/data/wy/sft_v3_ckpts"   # /home overlay 100% 满, 落 /data 195G avail
+  gen_dir:                    "/data/wy/sft_v3_gen"
+  report_dir:                 "reports/v3"
+
+# ───────────────────────── model ─────────────────────────
+model:
+  base_model:                 "Qwen/Qwen2.5-7B-Instruct"
+  remote_base_model:          "/data/dhf/chain_critic/model/Qwen2.5-7B-Instruct/"
+  lora:
+    r:                        32
+    alpha:                    64
+    dropout:                  0.05
+    target_modules:           [q_proj, k_proj, v_proj, o_proj]
+
+# ───────────────────────── training ─────────────────────────
+train:
+  optimizer:                  "adamw"
+  lr:                         1.0e-4
+  weight_decay:               0.01
+  scheduler:                  "cosine"
+  warmup_steps:               50
+  batch_size:                 4                       # 7B + 4096 seq + bf16 + LoRA r=32, 单卡 A800 80GB
+  grad_accum_steps:           8                       # eff batch = 32
+  max_seq_len:                4096
+  bf16:                       true
+  gradient_checkpointing:     true
+  seed:                       42
+
+  # Curriculum (spec §7.2) — 当前 only stage 1 实装
+  # stage 2/3 需 K-way L_cls head + consistency L_cc head, TODO
+  lambda_cls:                 0.1                     # 暂不用
+  lambda_cc:                  0.3                     # 暂不用
+
+# ───────────────────────── inference ─────────────────────────
+infer:
+  temperature:                0.7
+  top_p:                      0.9
+  max_new_tokens:             512
+  do_sample:                  true

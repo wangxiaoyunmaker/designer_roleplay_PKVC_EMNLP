@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我习惯先把产品的核心场景想清楚再动手。对我来说，效率不是单纯的快，而是让用户在自然顺畅的体验中完成任务，不被打扰。比如 App 协同设计，我会优先考虑它如何融入用户的日常，而不是强行推高使用频率。",
+  "inferred_factor": "P",
+  "inferred_subtype": "P1",
+  "evidence_quote": "我会先在脑中形成产品形态和使用场景，想象它如何与手机 App 协同。",
+  "evidence_source": "Q1_seed",
+  "confidence": "high",
+  "reason_if_low": ""
+}

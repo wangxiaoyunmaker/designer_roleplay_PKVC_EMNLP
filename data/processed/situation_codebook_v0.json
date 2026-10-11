@@ -1,0 +1,137 @@
+{
+  "version": "v0.1",
+  "locked_at": "2026-05-23",
+  "source": "学姐 2026-05-23 reply + user normalize + schema v1.1 (o_subtype)",
+  "schema_compat": "T_CAPS_quad_schema_v1.1",
+  "notes": [
+    "v0 只有 Q3-Q6 来自学姐真实 tag, Q1/Q2/Q7/Q8 待学姐补",
+    "Q4 'Commercial_Profit' 暂归 P 字段, 等学姐 cardId metadata 最终校准",
+    "命名约束: [High/Low]_X_field_[Name]_vs_[High/Low]_Y_field_[Name]",
+    "C_local 字段名支持子类编号 (P1/P2/P3 等), 当前学姐 Q3-Q6 给的是大类 (P/K/V/C), 等她下一步细化到子类时直接替换 tag, 无需改 schema",
+    "C_global (task background) 不在此文件, 进 prompt template, 见 sft_pipeline/config/prompts/",
+    "v1.1 schema 新增 o_subtype 字段 (12 PKVC cardId), 作 attribute, 不参与 main mining, 学姐 Q3-Q6 选项-因子 mapping 标到的 P1/P3 子类信息全部落到这里",
+    "o_subtype codebook 见本文件末尾 'o_subtype_codebook' 段"
+  ],
+
+  "C_local": {
+    "Q3": {
+      "tag": "High_K_Utility_vs_Low_C_Aesthetics",
+      "中文释义": "高数据效用 vs 低概念美感",
+      "题干主轴": "医疗器械般笨重但准确率 99% vs 美学 79%",
+      "polarity_type": "high_vs_low",
+      "PKVC_left": "K",
+      "PKVC_right": "C",
+      "PKVC_left_subtype": "TBD_K?",
+      "PKVC_right_subtype": "TBD_C?",
+      "status": "locked_by_xj_20260523",
+      "pending_subtype": "学姐 Q3 题目-选项-因子 mapping 细化到 K1-K3 / C1-C3 哪一个"
+    },
+    "Q4": {
+      "tag": "High_P_Commercial_Profit_vs_High_V_Ethical_Risk",
+      "中文释义": "高商业利润 vs 高伦理隐私风险",
+      "题干主轴": "封闭生态获取隐私 vs 开源协议",
+      "polarity_type": "high_vs_high",
+      "PKVC_left": "P",
+      "PKVC_right": "V",
+      "PKVC_left_subtype": "TBD_P?",
+      "PKVC_right_subtype": "TBD_V?",
+      "status": "locked_by_xj_20260523",
+      "pending": "Commercial 是否归 P, 等学姐 cardId metadata 校准",
+      "pending_subtype": "学姐 Q4 题目-选项-因子 mapping 细化到 P1-P3 / V1-V3 哪一个"
+    },
+    "Q5": {
+      "tag": "High_K_Automation_Efficiency_vs_Low_V_Authorship_Identity",
+      "中文释义": "高自动化效率 vs 低作者性/有机感",
+      "题干主轴": "AI 自动生成效率高但无机没人味",
+      "polarity_type": "high_vs_low",
+      "PKVC_left": "K",
+      "PKVC_right": "V",
+      "PKVC_left_subtype": "TBD_K?",
+      "PKVC_right_subtype": "TBD_V?",
+      "status": "locked_by_xj_20260523",
+      "pending_subtype": "学姐 Q5 题目-选项-因子 mapping 细化到 K1-K3 / V1-V3 哪一个"
+    },
+    "Q6": {
+      "tag": "High_P_Authority_Mandate_vs_High_V_User_Harm",
+      "中文释义": "高权威/现实强制 vs 高用户伤害",
+      "题干主轴": "用户焦虑异化 vs 老板强令上线",
+      "polarity_type": "high_vs_high",
+      "PKVC_left": "P",
+      "PKVC_right": "V",
+      "PKVC_left_subtype": "TBD_P?",
+      "PKVC_right_subtype": "TBD_V?",
+      "status": "locked_by_xj_20260523",
+      "pending_subtype": "学姐 Q6 题目-选项-因子 mapping 细化到 P1-P3 / V1-V3 哪一个"
+    },
+    "Q1": {
+      "tag": "TBD",
+      "status": "pending_xj",
+      "note": "Q1 是'第一反应 PKVC 主导'单选, 可能是 designer profile 题, C 字段 N/A?"
+    },
+    "Q2": {
+      "tag": "TBD",
+      "status": "pending_xj"
+    },
+    "Q7": {
+      "tag": "TBD",
+      "status": "pending_xj",
+      "note": "Q7 是 eval set, tag 仍需 (eval prompt 也带 C tag), 题干主轴: 老城区超市数字化重构, 商业坪效 vs 弱势群体 vs 用户伦理"
+    },
+    "Q8": {
+      "tag": "TBD",
+      "status": "deferred_P0-1",
+      "note": "Q8 第二场景是否采用未定, brief v3.5 P0-1"
+    }
+  },
+
+  "C_global": {
+    "current_task": "Q1_to_Q6_unified_task",
+    "tag": "BG_TechCompany_AIProduct_DigitalTransform",
+    "narrative_text_placeholder": "(待学姐补 50-100 字 task background 草稿, 写进 prompt template)",
+    "global_pressure_dimensions": [
+      "商业压力 (公司战略要求短期内数字化转型)",
+      "时间压力 (产品 deadline 紧迫)",
+      "道德压力 (用户福祉 vs 商业指标张力)"
+    ],
+    "note_eng": "C_global enters prompt narrative, not quad schema. Single value across all Q1-Q6 training data; mining-irrelevant under current dataset."
+  },
+
+  "polarity_types": {
+    "high_vs_high": "双高冲突: 两个 PKVC 字段都强 salient, 互相拉扯 (Q4, Q6)",
+    "high_vs_low": "高低对立: 一端强, 另一端弱但被 user 期望 (Q3, Q5)",
+    "low_vs_high": "高低对立 (反向, 暂未出现)",
+    "low_vs_low": "双弱缺位 (理论存在, 实际题目不大可能)"
+  },
+
+  "naming_constraint": {
+    "pattern": "[High|Low]_[P|K|V|C][1-3]?_[Name]_vs_[High|Low]_[P|K|V|C][1-3]?_[Name]",
+    "case": "_vs_ lowercase",
+    "PKVC_fields_must_be": "P|K|V|C with optional 1-3 cardId suffix",
+    "free_form_allowed": false
+  },
+
+  "o_subtype_codebook": {
+    "_note": "v1.1 新增, quad schema 中 o_subtype 字段的合法取值. 学姐 Q3-Q6 选项-因子 mapping 标到的 P1/P3 这种子类信息全部进 quad 的 o_subtype 字段. 当前各 cardId 的语义定义 TBD, 等学姐 PKVC 12 cardId metadata 完整版本",
+    "_schema_role": "attribute, NOT in main mining grid. paper qualitative + 200 入袋后重评估升 o_primary",
+    "P": {
+      "P1": {"name_中文": "TBD", "definition": "TBD_pending_xj"},
+      "P2": {"name_中文": "TBD", "definition": "TBD_pending_xj"},
+      "P3": {"name_中文": "TBD", "definition": "TBD_pending_xj"}
+    },
+    "K": {
+      "K1": {"name_中文": "TBD", "definition": "TBD_pending_xj"},
+      "K2": {"name_中文": "TBD", "definition": "TBD_pending_xj"},
+      "K3": {"name_中文": "TBD", "definition": "TBD_pending_xj"}
+    },
+    "V": {
+      "V1": {"name_中文": "TBD", "definition": "TBD_pending_xj"},
+      "V2": {"name_中文": "TBD", "definition": "TBD_pending_xj"},
+      "V3": {"name_中文": "TBD", "definition": "TBD_pending_xj"}
+    },
+    "C": {
+      "C1": {"name_中文": "TBD", "definition": "TBD_pending_xj"},
+      "C2": {"name_中文": "TBD", "definition": "TBD_pending_xj"},
+      "C3": {"name_中文": "TBD", "definition": "TBD_pending_xj"}
+    }
+  }
+}

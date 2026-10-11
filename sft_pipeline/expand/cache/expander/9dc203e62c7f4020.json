@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我更倾向于用数据说话，而不是主观臆断。通过查看用户的定量数据和传感器精度报告，可以更清楚地了解问题所在，避免忽视用户的真实需求。只有在事实基础上做出的判断，才能既满足商业目标，又不损害用户的长期信任。",
+  "inferred_factor": "C",
+  "inferred_subtype": "C1",
+  "evidence_quote": "用数据验证设计假设，在伦理约束与商业目标之间寻找\"最大公约数\"",
+  "evidence_source": "Q7_B2",
+  "confidence": "high",
+  "reason_if_low": ""
+}

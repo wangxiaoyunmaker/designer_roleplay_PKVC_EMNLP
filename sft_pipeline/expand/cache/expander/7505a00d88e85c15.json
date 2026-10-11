@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我会先去查法律和数据，明确哪些是红线，哪些是机会。设计的前提是合法合规，不能踩政策底线。商业化当然重要，但如果连基本的合规性都没搞清楚，后续的设计讨论就没有意义了。这是我做决策时的基本逻辑。",
+  "inferred_factor": "K",
+  "inferred_subtype": "K2",
+  "evidence_quote": "用法律底线和客观商业数据来重新界定我们到底能做什么。",
+  "evidence_source": "Q4_seed",
+  "confidence": "high",
+  "reason_if_low": ""
+}

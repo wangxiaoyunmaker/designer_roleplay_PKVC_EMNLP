@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "面对争议，我会优先查阅数据和法律，明确哪些是底线，哪些是可以调整的空间。这样能避免主观争论，直接用事实和规则界定行动范围。商业目标重要，但合规是前提，只有稳住底线，才能在后续设计中找到更合理的平衡点。",
+  "inferred_factor": "C",
+  "inferred_subtype": "C1",
+  "evidence_quote": "我会立刻去调阅相关的数据合规法案、竞品的用户隐私协议以及商业变现的精算报告。",
+  "evidence_source": "Q4_seed",
+  "confidence": "high",
+  "reason_if_low": ""
+}

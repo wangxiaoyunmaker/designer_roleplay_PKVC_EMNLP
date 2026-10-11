@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我倾向于先用数据分析试探用户的真实反应，再决定下一步。直接用 A/B 测试筛选 AI 生成的界面，不仅效率高，还能避免主观偏见影响判断。这样能更快找到符合市场需求的方案，同时也给后续优化留出空间。",
+  "inferred_factor": "C",
+  "inferred_subtype": "C2",
+  "evidence_quote": "理解到用户伦理后及商业要求皆已符合后再开始做数据分析及数据权衡。",
+  "evidence_source": "Q7_B2",
+  "confidence": "high",
+  "reason_if_low": ""
+}

@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我倾向于先做一个低保真原型，快速验证用户的真实需求和购买意愿。这样可以避免过早投入大量资源在可能不被市场接受的方向上，同时也能通过数据反馈找到更优的解决方案。对我来说，MVP是一个高效的试错方式，能让我更快调整策略。",
+  "inferred_factor": "P",
+  "inferred_subtype": "P2",
+  "evidence_quote": "数据只是数据，只能作为一种设计时候的参考。",
+  "evidence_source": "Q7_B2",
+  "confidence": "high",
+  "reason_if_low": ""
+}

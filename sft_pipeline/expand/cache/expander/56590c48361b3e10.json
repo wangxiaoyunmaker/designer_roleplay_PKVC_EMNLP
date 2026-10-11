@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "数据从来不是绝对客观的，尤其在用户体验这种场景里，很多时候数据会被用来包装一个看似合理的方案。我会要求工程团队拿出实际差异报告，因为只有真实的用户体验才能说明问题，而不是靠数字说服我接受一个丑陋的设计。",
+  "inferred_factor": "K",
+  "inferred_subtype": "K2",
+  "evidence_quote": "数据从来不是绝对客观的，尤其在用户体验这种场景里。",
+  "evidence_source": "Q7_B2",
+  "confidence": "high",
+  "reason_if_low": ""
+}

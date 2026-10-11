@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我更关注用户的实际需求和市场反馈，而不是单纯依赖主观判断或理论推测。通过低保真原型测试，可以直接看到用户的购买意愿数据，这样的决策更贴近实际，也能兼顾商业价值和用户体验。",
+  "inferred_factor": "K",
+  "inferred_subtype": "K2",
+  "evidence_quote": "优先大部分用户的必要需求，再考虑数据和商业要求。",
+  "evidence_source": "Q7_B2",
+  "confidence": "high",
+  "reason_if_low": ""
+}

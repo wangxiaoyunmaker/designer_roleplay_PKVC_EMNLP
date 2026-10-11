@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我更倾向于从经验出发，因为它能提供一个快速的参考框架，尤其是在面对类似场景时，能直接借鉴成功案例或行业规范。这种方法既节省时间，又能避免一些常见的设计陷阱。当然，经验不是万能的，但它是一个很好的起点，能帮助我更快进入状态。",
+  "inferred_factor": "K",
+  "inferred_subtype": "K1",
+  "evidence_quote": "调用过去的经验、竞品案例或行业规范作参考",
+  "evidence_source": "Q2_cardid",
+  "confidence": "high",
+  "reason_if_low": ""
+}

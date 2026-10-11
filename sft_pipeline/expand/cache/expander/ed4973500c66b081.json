@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我觉得隐私和开源这些议题太抽象了，真正重要的是用户在具体场景下的真实痛点。只有把问题拆解到细节，才能找到用户真正关心的点，比如哪些数据会让他们敏感，哪些场景会让他们不安。设计要落地，就得从这些具体需求出发。",
+  "inferred_factor": "K",
+  "inferred_subtype": "K3",
+  "evidence_quote": "把这个宏大的道德议题，降维拆解成一个个极其具体的痛点需求。",
+  "evidence_source": "Q4_seed",
+  "confidence": "high",
+  "reason_if_low": ""
+}

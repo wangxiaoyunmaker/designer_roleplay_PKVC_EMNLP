@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我觉得打工赚钱就是要守住法律底线，其他的可以后期再调整。老板要的是盈利，我的任务就是在合规的前提下帮他实现这个目标。至于用户伦理或者其他问题，只要不触碰红线，就可以先放一放，后续再优化也不迟。",
+  "inferred_factor": "C",
+  "inferred_subtype": "C1",
+  "evidence_quote": "企业还是赚钱为主，生存下来是最重要的。",
+  "evidence_source": "Q7_B1",
+  "confidence": "high",
+  "reason_if_low": ""
+}

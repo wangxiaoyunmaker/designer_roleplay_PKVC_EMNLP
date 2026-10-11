@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我的习惯是先把复杂问题拆解成几个具体的小问题，再去调研已有的经验和工具，找到可行的实现路径。最后，我会模拟这些方案在实际场景中的效果，确保它们既能解决核心问题，又能兼顾用户体验和商业目标。这种逻辑让我在面对多方利益冲突时更有条理。",
+  "inferred_factor": "P",
+  "inferred_subtype": "P2",
+  "evidence_quote": "将复杂的总委托拆解为几个具体的子问题",
+  "evidence_source": "Q2_cardid",
+  "confidence": "high",
+  "reason_if_low": ""
+}

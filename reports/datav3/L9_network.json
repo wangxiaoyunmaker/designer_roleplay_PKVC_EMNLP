@@ -1,0 +1,332 @@
+{
+  "n": 163,
+  "p": 30,
+  "gamma": 0.5,
+  "best_lambda": 0.2406867938091348,
+  "best_ebic": 5094.347558084319,
+  "logL": -2380.6277495443246,
+  "n_edges": 28,
+  "density": 0.06436781609195402,
+  "n_pos_edges_offdiag": 28,
+  "n_neg_edges_offdiag": 0,
+  "selection_label": "descriptive λ@|E|≈30 (EBIC γ∈{0,0.25,0.5} all gave |E|<10; small-N over-shrink)",
+  "gamma_sweep": [
+    {
+      "gamma": 0.5,
+      "best_lambda": 0.41328652053770826,
+      "best_ebic": 4889.999999999999,
+      "n_edges": 0
+    },
+    {
+      "gamma": 0.25,
+      "best_lambda": 0.41328652053770826,
+      "best_ebic": 4889.999999999999,
+      "n_edges": 0
+    },
+    {
+      "gamma": 0.0,
+      "best_lambda": 0.41328652053770826,
+      "best_ebic": 4889.999999999999,
+      "n_edges": 0
+    }
+  ],
+  "top_edges": [
+    {
+      "i": 7,
+      "j": 28,
+      "item_i": "复杂工具信仰",
+      "item_j": "资产开源",
+      "partial_r": 0.168,
+      "sign": "+"
+    },
+    {
+      "i": 7,
+      "j": 11,
+      "item_i": "复杂工具信仰",
+      "item_j": "封闭生态竞争",
+      "partial_r": 0.135,
+      "sign": "+"
+    },
+    {
+      "i": 4,
+      "j": 9,
+      "item_i": "创新代价",
+      "item_j": "完美主义/MVP",
+      "partial_r": 0.125,
+      "sign": "+"
+    },
+    {
+      "i": 6,
+      "j": 17,
+      "item_i": "团队依恋",
+      "item_j": "数据 vs 直觉",
+      "partial_r": 0.098,
+      "sign": "+"
+    },
+    {
+      "i": 7,
+      "j": 29,
+      "item_i": "复杂工具信仰",
+      "item_j": "风险规避",
+      "partial_r": 0.088,
+      "sign": "+"
+    },
+    {
+      "i": 2,
+      "j": 9,
+      "item_i": "仿生与有机",
+      "item_j": "完美主义/MVP",
+      "partial_r": 0.078,
+      "sign": "+"
+    },
+    {
+      "i": 14,
+      "j": 19,
+      "item_i": "技术支持",
+      "item_j": "时代 vs 永恒",
+      "partial_r": 0.072,
+      "sign": "+"
+    },
+    {
+      "i": 3,
+      "j": 28,
+      "item_i": "创作者署名",
+      "item_j": "资产开源",
+      "partial_r": 0.064,
+      "sign": "+"
+    },
+    {
+      "i": 2,
+      "j": 7,
+      "item_i": "仿生与有机",
+      "item_j": "复杂工具信仰",
+      "partial_r": 0.057,
+      "sign": "+"
+    },
+    {
+      "i": 17,
+      "j": 22,
+      "item_i": "数据 vs 直觉",
+      "item_j": "独裁 vs 委员会",
+      "partial_r": 0.049,
+      "sign": "+"
+    },
+    {
+      "i": 24,
+      "j": 28,
+      "item_i": "系统微模块",
+      "item_j": "资产开源",
+      "partial_r": 0.047,
+      "sign": "+"
+    },
+    {
+      "i": 7,
+      "j": 15,
+      "item_i": "复杂工具信仰",
+      "item_j": "政治中立性",
+      "partial_r": 0.042,
+      "sign": "+"
+    },
+    {
+      "i": 4,
+      "j": 21,
+      "item_i": "创新代价",
+      "item_j": "混沌与灵感",
+      "partial_r": 0.041,
+      "sign": "+"
+    },
+    {
+      "i": 11,
+      "j": 29,
+      "item_i": "封闭生态竞争",
+      "item_j": "风险规避",
+      "partial_r": 0.039,
+      "sign": "+"
+    },
+    {
+      "i": 18,
+      "j": 30,
+      "item_i": "数据隐私交换",
+      "item_j": "黑盒透明度",
+      "partial_r": 0.038,
+      "sign": "+"
+    },
+    {
+      "i": 6,
+      "j": 9,
+      "item_i": "团队依恋",
+      "item_j": "完美主义/MVP",
+      "partial_r": 0.035,
+      "sign": "+"
+    },
+    {
+      "i": 6,
+      "j": 24,
+      "item_i": "团队依恋",
+      "item_j": "系统微模块",
+      "partial_r": 0.033,
+      "sign": "+"
+    },
+    {
+      "i": 6,
+      "j": 22,
+      "item_i": "团队依恋",
+      "item_j": "独裁 vs 委员会",
+      "partial_r": 0.029,
+      "sign": "+"
+    },
+    {
+      "i": 9,
+      "j": 20,
+      "item_i": "完美主义/MVP",
+      "item_j": "本土文化妥协",
+      "partial_r": 0.023,
+      "sign": "+"
+    },
+    {
+      "i": 3,
+      "j": 11,
+      "item_i": "创作者署名",
+      "item_j": "封闭生态竞争",
+      "partial_r": 0.022,
+      "sign": "+"
+    },
+    {
+      "i": 7,
+      "j": 19,
+      "item_i": "复杂工具信仰",
+      "item_j": "时代 vs 永恒",
+      "partial_r": 0.017,
+      "sign": "+"
+    },
+    {
+      "i": 3,
+      "j": 4,
+      "item_i": "创作者署名",
+      "item_j": "创新代价",
+      "partial_r": 0.014,
+      "sign": "+"
+    },
+    {
+      "i": 3,
+      "j": 7,
+      "item_i": "创作者署名",
+      "item_j": "复杂工具信仰",
+      "partial_r": 0.014,
+      "sign": "+"
+    },
+    {
+      "i": 5,
+      "j": 19,
+      "item_i": "商业操纵伦理",
+      "item_j": "时代 vs 永恒",
+      "partial_r": 0.01,
+      "sign": "+"
+    },
+    {
+      "i": 1,
+      "j": 24,
+      "item_i": "AI 替代论",
+      "item_j": "系统微模块",
+      "partial_r": 0.005,
+      "sign": "+"
+    }
+  ],
+  "centrality_top_strength": [
+    {
+      "idx": 7,
+      "item": "复杂工具信仰",
+      "strength": 0.525,
+      "closeness": 0.0105,
+      "betweenness": 0.2562,
+      "bridge": 0.078
+    },
+    {
+      "idx": 28,
+      "item": "资产开源",
+      "strength": 0.279,
+      "closeness": 0.0103,
+      "betweenness": 0.1527,
+      "bridge": 0.047
+    },
+    {
+      "idx": 9,
+      "item": "完美主义/MVP",
+      "strength": 0.261,
+      "closeness": 0.0095,
+      "betweenness": 0.1232,
+      "bridge": 0.035
+    },
+    {
+      "idx": 11,
+      "item": "封闭生态竞争",
+      "strength": 0.196,
+      "closeness": 0.0094,
+      "betweenness": 0.0,
+      "bridge": 0.0
+    },
+    {
+      "idx": 6,
+      "item": "团队依恋",
+      "strength": 0.195,
+      "closeness": 0.008,
+      "betweenness": 0.0788,
+      "bridge": 0.035
+    }
+  ],
+  "centrality_top_bridge": [
+    {
+      "idx": 7,
+      "item": "复杂工具信仰",
+      "strength": 0.525,
+      "closeness": 0.0105,
+      "betweenness": 0.2562,
+      "bridge": 0.078
+    },
+    {
+      "idx": 2,
+      "item": "仿生与有机",
+      "strength": 0.138,
+      "closeness": 0.01,
+      "betweenness": 0.1084,
+      "bridge": 0.057
+    },
+    {
+      "idx": 24,
+      "item": "系统微模块",
+      "strength": 0.09,
+      "closeness": 0.0087,
+      "betweenness": 0.1084,
+      "bridge": 0.052
+    },
+    {
+      "idx": 28,
+      "item": "资产开源",
+      "strength": 0.279,
+      "closeness": 0.0103,
+      "betweenness": 0.1527,
+      "bridge": 0.047
+    },
+    {
+      "idx": 6,
+      "item": "团队依恋",
+      "strength": 0.195,
+      "closeness": 0.008,
+      "betweenness": 0.0788,
+      "bridge": 0.035
+    }
+  ],
+  "n_louvain_communities": 14,
+  "ari_louvain_efa": 0.2747147754735008,
+  "nmi_louvain_efa": 0.5973403845108406,
+  "figures": [
+    "figures/L9_network_pcorr.png",
+    "figures/L9_ebic_curve.png"
+  ],
+  "lambda_sweep_summary": {
+    "n_points": 50,
+    "edges_at_best": 28,
+    "edges_min": 0,
+    "edges_max": 428
+  }
+}

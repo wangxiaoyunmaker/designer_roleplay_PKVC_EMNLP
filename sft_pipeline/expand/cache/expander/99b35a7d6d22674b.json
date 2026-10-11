@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我习惯按自己的设计流程来，先从模糊的形态入手，快速捕捉灵感，再逐步整合逻辑、拆解问题，最后提炼出可复用的设计原则。这种方式对我来说顺手，也能保证设计的完整性和效率。虽然每个项目都有不同的挑战，但这个框架基本是我处理复杂任务的起点。",
+  "inferred_factor": "C",
+  "inferred_subtype": "C1",
+  "evidence_quote": "基本上是自己惯用的设计流程",
+  "evidence_source": "Q2_seed",
+  "confidence": "high",
+  "reason_if_low": ""
+}

@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "在公司环境里，我会优先考虑市场和董事会的需求。设计虽然重要，但它不是孤立的，必须服务于整体目标。如果牺牲部分设计能换来市场先发优势，我认为这是合理的取舍。",
+  "inferred_factor": "C",
+  "inferred_subtype": "C1",
+  "evidence_quote": "我会选择以董事会的建议为主。不然我可能也要被开了。",
+  "evidence_source": "Q7_B1",
+  "confidence": "high",
+  "reason_if_low": ""
+}

@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我需要一些具体的理论依据来支撑我做决策，比如法律底线和商业数据。这些东西能让我更清楚地知道哪些是可行的，哪些是红线，避免主观判断带来的偏差。尤其在涉及用户隐私和商业变现时，我更倾向于用事实和数据说话，而不是靠感觉去猜测。",
+  "inferred_factor": "K",
+  "inferred_subtype": "K2",
+  "evidence_quote": "用法律底线和客观商业数据来重新界定我们到底能做什么。",
+  "evidence_source": "Q4_seed",
+  "confidence": "high",
+  "reason_if_low": ""
+}

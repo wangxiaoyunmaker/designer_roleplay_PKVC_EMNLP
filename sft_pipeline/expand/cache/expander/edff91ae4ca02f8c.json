@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我认为数据的真实性是设计决策的基石。即使面对复杂的场景或多方利益权衡，数据提供了客观的参考，帮助我在不确定性中找到方向。无论是短期优化还是长期规划，数据的可靠性都直接影响到方案的执行效果和用户体验。",
+  "inferred_factor": "K",
+  "inferred_subtype": "K1",
+  "evidence_quote": "数据的真实性很重要",
+  "evidence_source": "Q3_seed",
+  "confidence": "high",
+  "reason_if_low": ""
+}

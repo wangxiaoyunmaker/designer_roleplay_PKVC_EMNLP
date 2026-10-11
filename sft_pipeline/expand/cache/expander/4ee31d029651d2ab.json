@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我习惯从整体到局部逐步拆解问题。先明确核心矛盾和底线，再把复杂目标分解成具体子问题，这样思路更清晰，也能避免遗漏关键点。比如在面对多方利益冲突时，我会先找到主要矛盾，再逐步调整优先级，确保每一步都在控制范围内。",
+  "inferred_factor": "P",
+  "inferred_subtype": "P2",
+  "evidence_quote": "将复杂的总委托拆解为几个具体的子问题",
+  "evidence_source": "Q2_cardid",
+  "confidence": "high",
+  "reason_if_low": ""
+}

@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我觉得设计的第一步是明确核心矛盾，比如效率和用户健康之间的关系。如果这点不清楚，后续的方向就会很混乱，甚至浪费资源。只有把最重要的诉求梳理清楚，才能减少不必要的劳动，确保设计能真正落地，而不是陷入无效的反复调整。",
+  "inferred_factor": "K",
+  "inferred_subtype": "K1",
+  "evidence_quote": "树立核心诉求可以减少很多不必要的劳动",
+  "evidence_source": "Q1_seed",
+  "confidence": "high",
+  "reason_if_low": ""
+}

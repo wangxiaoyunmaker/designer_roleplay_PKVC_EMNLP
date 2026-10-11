@@ -1,0 +1,853 @@
+{
+  "Q1_A": {
+    "qid": "Q1",
+    "option": "A",
+    "n_samples": 66,
+    "C_raw": null,
+    "C_conflict_axes": null,
+    "C_formal_proposed": null,
+    "s_primary": [
+      "商业操纵伦理",
+      "资产开源",
+      "数据隐私交换"
+    ],
+    "s_primary_with_stance": [
+      {
+        "item": "商业操纵伦理",
+        "stance": "商业操纵容忍",
+        "direction": "+",
+        "coef": 0.263,
+        "marginal_perm_p": 0.228
+      },
+      {
+        "item": "资产开源",
+        "stance": "开源道德派",
+        "direction": "+",
+        "coef": 0.261,
+        "marginal_perm_p": 0.287
+      },
+      {
+        "item": "数据隐私交换",
+        "stance": "体验换隐私",
+        "direction": "+",
+        "coef": 0.235,
+        "marginal_perm_p": 0.096
+      }
+    ],
+    "o_primary_hint": "C",
+    "o_subtype_hint": "C"
+  },
+  "Q1_B": {
+    "qid": "Q1",
+    "option": "B",
+    "n_samples": 60,
+    "C_raw": null,
+    "C_conflict_axes": null,
+    "C_formal_proposed": null,
+    "s_primary": [
+      "系统责任归属",
+      "时代 vs 永恒",
+      "商业操纵伦理"
+    ],
+    "s_primary_with_stance": [
+      {
+        "item": "系统责任归属",
+        "stance": "用户归责派",
+        "direction": "-",
+        "coef": -0.38,
+        "marginal_perm_p": 0.012
+      },
+      {
+        "item": "时代 vs 永恒",
+        "stance": "时代潮流派",
+        "direction": "+",
+        "coef": 0.325,
+        "marginal_perm_p": 0.06
+      },
+      {
+        "item": "商业操纵伦理",
+        "stance": "商业操纵容忍",
+        "direction": "+",
+        "coef": 0.296,
+        "marginal_perm_p": 0.102
+      }
+    ],
+    "o_primary_hint": "P",
+    "o_subtype_hint": "P"
+  },
+  "Q1_C": {
+    "qid": "Q1",
+    "option": "C",
+    "n_samples": 23,
+    "C_raw": null,
+    "C_conflict_axes": null,
+    "C_formal_proposed": null,
+    "s_primary": [
+      "仿生与有机",
+      "系统微模块",
+      "混沌与灵感"
+    ],
+    "s_primary_with_stance": [
+      {
+        "item": "仿生与有机",
+        "stance": "几何工业派",
+        "direction": "-",
+        "coef": -0.229,
+        "marginal_perm_p": 0.259
+      },
+      {
+        "item": "系统微模块",
+        "stance": "解耦优先",
+        "direction": "+",
+        "coef": 0.22,
+        "marginal_perm_p": 0.387
+      },
+      {
+        "item": "混沌与灵感",
+        "stance": "包容失控派",
+        "direction": "+",
+        "coef": 0.185,
+        "marginal_perm_p": 0.377
+      }
+    ],
+    "o_primary_hint": "K",
+    "o_subtype_hint": "K"
+  },
+  "Q1_D": {
+    "qid": "Q1",
+    "option": "D",
+    "n_samples": 14,
+    "C_raw": null,
+    "C_conflict_axes": null,
+    "C_formal_proposed": null,
+    "s_primary": [
+      "数据 vs 直觉",
+      "团队依恋",
+      "封闭生态竞争"
+    ],
+    "s_primary_with_stance": [
+      {
+        "item": "数据 vs 直觉",
+        "stance": "重直觉立场",
+        "direction": "+",
+        "coef": 0.537,
+        "marginal_perm_p": 0.04
+      },
+      {
+        "item": "团队依恋",
+        "stance": "团队共创派",
+        "direction": "-",
+        "coef": -0.465,
+        "marginal_perm_p": 0.108
+      },
+      {
+        "item": "封闭生态竞争",
+        "stance": "开放兼容派",
+        "direction": "-",
+        "coef": -0.445,
+        "marginal_perm_p": 0.072
+      }
+    ],
+    "o_primary_hint": "V",
+    "o_subtype_hint": "V"
+  },
+  "Q3_A": {
+    "qid": "Q3",
+    "option": "A",
+    "n_samples": 11,
+    "C_raw": "【数据效用】vs 【美感形态】【设计师立场",
+    "C_conflict_axes": "K vs. C/V",
+    "C_formal_proposed": "K_ObjectiveData_vs_CV_Aesthetic",
+    "s_primary": [
+      "天赋信仰",
+      "混沌与灵感",
+      "团队依恋"
+    ],
+    "s_primary_with_stance": [
+      {
+        "item": "天赋信仰",
+        "stance": "后天努力论",
+        "direction": "-",
+        "coef": -0.349,
+        "marginal_perm_p": 0.054
+      },
+      {
+        "item": "混沌与灵感",
+        "stance": "包容失控派",
+        "direction": "+",
+        "coef": 0.275,
+        "marginal_perm_p": 0.273
+      },
+      {
+        "item": "团队依恋",
+        "stance": "独立打磨派",
+        "direction": "+",
+        "coef": 0.247,
+        "marginal_perm_p": 0.23
+      }
+    ],
+    "o_primary_hint": "K",
+    "o_subtype_hint": "k2"
+  },
+  "Q3_B": {
+    "qid": "Q3",
+    "option": "B",
+    "n_samples": 60,
+    "C_raw": "【数据效用】vs 【美感形态】【设计师立场",
+    "C_conflict_axes": "K vs. C/V",
+    "C_formal_proposed": "K_ObjectiveData_vs_CV_Aesthetic",
+    "s_primary": [
+      "完美主义/MVP",
+      "弱势群体优先",
+      "创新代价"
+    ],
+    "s_primary_with_stance": [
+      {
+        "item": "完美主义/MVP",
+        "stance": "完美主义",
+        "direction": "+",
+        "coef": 0.164,
+        "marginal_perm_p": 0.519
+      },
+      {
+        "item": "弱势群体优先",
+        "stance": "边缘群体优先",
+        "direction": "+",
+        "coef": 0.147,
+        "marginal_perm_p": 0.345
+      },
+      {
+        "item": "创新代价",
+        "stance": "惯例守护派",
+        "direction": "-",
+        "coef": -0.139,
+        "marginal_perm_p": 0.375
+      }
+    ],
+    "o_primary_hint": "P",
+    "o_subtype_hint": "p3➡️k3"
+  },
+  "Q3_C": {
+    "qid": "Q3",
+    "option": "C",
+    "n_samples": 8,
+    "C_raw": "【数据效用】vs 【美感形态】【设计师立场",
+    "C_conflict_axes": "K vs. C/V",
+    "C_formal_proposed": "K_ObjectiveData_vs_CV_Aesthetic",
+    "s_primary": [
+      "仿生与有机",
+      "数据 vs 直觉",
+      "AI 替代论"
+    ],
+    "s_primary_with_stance": [
+      {
+        "item": "仿生与有机",
+        "stance": "几何工业派",
+        "direction": "-",
+        "coef": -0.861,
+        "marginal_perm_p": 0.028
+      },
+      {
+        "item": "数据 vs 直觉",
+        "stance": "重直觉立场",
+        "direction": "+",
+        "coef": 0.692,
+        "marginal_perm_p": 0.054
+      },
+      {
+        "item": "AI 替代论",
+        "stance": "岗位保护主义",
+        "direction": "-",
+        "coef": -0.435,
+        "marginal_perm_p": 0.08
+      }
+    ],
+    "o_primary_hint": "V",
+    "o_subtype_hint": "v1➡️c1"
+  },
+  "Q3_D": {
+    "qid": "Q3",
+    "option": "D",
+    "n_samples": 84,
+    "C_raw": "【数据效用】vs 【美感形态】【设计师立场",
+    "C_conflict_axes": "K vs. C/V",
+    "C_formal_proposed": "K_ObjectiveData_vs_CV_Aesthetic",
+    "s_primary": [
+      "救世主情结",
+      "审美反民粹",
+      "仿生与有机"
+    ],
+    "s_primary_with_stance": [
+      {
+        "item": "救世主情结",
+        "stance": "救世主情结",
+        "direction": "+",
+        "coef": 0.362,
+        "marginal_perm_p": 0.016
+      },
+      {
+        "item": "审美反民粹",
+        "stance": "数据民粹妥协",
+        "direction": "-",
+        "coef": -0.288,
+        "marginal_perm_p": 0.02
+      },
+      {
+        "item": "仿生与有机",
+        "stance": "有机自然派",
+        "direction": "+",
+        "coef": 0.179,
+        "marginal_perm_p": 0.319
+      }
+    ],
+    "o_primary_hint": "K",
+    "o_subtype_hint": "k2"
+  },
+  "Q4_A": {
+    "qid": "Q4",
+    "option": "A",
+    "n_samples": 78,
+    "C_raw": "【商业利润】 vs 【隐私风险】、【封闭】 vs 【开源",
+    "C_conflict_axes": "K/P vs. V vs. C",
+    "C_formal_proposed": "KP_BusinessPrivacy_vs_V_Ethics_vs_C_Construct",
+    "s_primary": [
+      "本土文化妥协",
+      "股东服务优先",
+      "天赋信仰"
+    ],
+    "s_primary_with_stance": [
+      {
+        "item": "本土文化妥协",
+        "stance": "全球通用派",
+        "direction": "-",
+        "coef": -0.341,
+        "marginal_perm_p": 0.046
+      },
+      {
+        "item": "股东服务优先",
+        "stance": "股东忠诚派",
+        "direction": "+",
+        "coef": 0.209,
+        "marginal_perm_p": 0.078
+      },
+      {
+        "item": "天赋信仰",
+        "stance": "后天努力论",
+        "direction": "-",
+        "coef": -0.161,
+        "marginal_perm_p": 0.335
+      }
+    ],
+    "o_primary_hint": "K",
+    "o_subtype_hint": "k1➡️p1"
+  },
+  "Q4_B": {
+    "qid": "Q4",
+    "option": "B",
+    "n_samples": 8,
+    "C_raw": "【商业利润】 vs 【隐私风险】、【封闭】 vs 【开源",
+    "C_conflict_axes": "K/P vs. V vs. C",
+    "C_formal_proposed": "KP_BusinessPrivacy_vs_V_Ethics_vs_C_Construct",
+    "s_primary": [
+      "股东服务优先",
+      "仿生与有机",
+      "秩序与防错"
+    ],
+    "s_primary_with_stance": [
+      {
+        "item": "股东服务优先",
+        "stance": "用户忠诚派",
+        "direction": "-",
+        "coef": -0.337,
+        "marginal_perm_p": 0.036
+      },
+      {
+        "item": "仿生与有机",
+        "stance": "有机自然派",
+        "direction": "+",
+        "coef": 0.33,
+        "marginal_perm_p": 0.168
+      },
+      {
+        "item": "秩序与防错",
+        "stance": "探索开放派",
+        "direction": "-",
+        "coef": -0.29,
+        "marginal_perm_p": 0.088
+      }
+    ],
+    "o_primary_hint": "V",
+    "o_subtype_hint": "v3"
+  },
+  "Q4_C": {
+    "qid": "Q4",
+    "option": "C",
+    "n_samples": 29,
+    "C_raw": "【商业利润】 vs 【隐私风险】、【封闭】 vs 【开源",
+    "C_conflict_axes": "K/P vs. V vs. C",
+    "C_formal_proposed": "KP_BusinessPrivacy_vs_V_Ethics_vs_C_Construct",
+    "s_primary": [
+      "资产开源",
+      "黑盒透明度",
+      "风险规避"
+    ],
+    "s_primary_with_stance": [
+      {
+        "item": "资产开源",
+        "stance": "开源道德派",
+        "direction": "+",
+        "coef": 0.759,
+        "marginal_perm_p": 0.002
+      },
+      {
+        "item": "黑盒透明度",
+        "stance": "过程透明派",
+        "direction": "-",
+        "coef": -0.364,
+        "marginal_perm_p": 0.13
+      },
+      {
+        "item": "风险规避",
+        "stance": "风险偏好",
+        "direction": "-",
+        "coef": -0.345,
+        "marginal_perm_p": 0.467
+      }
+    ],
+    "o_primary_hint": "C",
+    "o_subtype_hint": "c2"
+  },
+  "Q4_D": {
+    "qid": "Q4",
+    "option": "D",
+    "n_samples": 48,
+    "C_raw": "【商业利润】 vs 【隐私风险】、【封闭】 vs 【开源",
+    "C_conflict_axes": "K/P vs. V vs. C",
+    "C_formal_proposed": "KP_BusinessPrivacy_vs_V_Ethics_vs_C_Construct",
+    "s_primary": [
+      "审美反民粹",
+      "数据 vs 直觉",
+      "创作者署名"
+    ],
+    "s_primary_with_stance": [
+      {
+        "item": "审美反民粹",
+        "stance": "数据民粹妥协",
+        "direction": "-",
+        "coef": -0.36,
+        "marginal_perm_p": 0.054
+      },
+      {
+        "item": "数据 vs 直觉",
+        "stance": "重直觉立场",
+        "direction": "+",
+        "coef": 0.3,
+        "marginal_perm_p": 0.539
+      },
+      {
+        "item": "创作者署名",
+        "stance": "商业去人格化",
+        "direction": "-",
+        "coef": -0.282,
+        "marginal_perm_p": 0.036
+      }
+    ],
+    "o_primary_hint": "K",
+    "o_subtype_hint": "k2➡️p2"
+  },
+  "Q5_A": {
+    "qid": "Q5",
+    "option": "A",
+    "n_samples": 28,
+    "C_raw": "【技术加速】vs 【人本】、【有机",
+    "C_conflict_axes": "K vs. C vs. V vs. P",
+    "C_formal_proposed": "K_TechScale_vs_C_Organic_vs_V_HumanCentric_vs_P_Core",
+    "s_primary": [
+      "数据 vs 直觉",
+      "技术支持",
+      "封闭生态竞争"
+    ],
+    "s_primary_with_stance": [
+      {
+        "item": "数据 vs 直觉",
+        "stance": "重数据立场",
+        "direction": "-",
+        "coef": -0.516,
+        "marginal_perm_p": 0.006
+      },
+      {
+        "item": "技术支持",
+        "stance": "技术激进主义",
+        "direction": "+",
+        "coef": 0.417,
+        "marginal_perm_p": 0.004
+      },
+      {
+        "item": "封闭生态竞争",
+        "stance": "封闭生态派",
+        "direction": "+",
+        "coef": 0.412,
+        "marginal_perm_p": 0.022
+      }
+    ],
+    "o_primary_hint": "K",
+    "o_subtype_hint": "k2"
+  },
+  "Q5_B": {
+    "qid": "Q5",
+    "option": "B",
+    "n_samples": 36,
+    "C_raw": "【技术加速】vs 【人本】、【有机",
+    "C_conflict_axes": "K vs. C vs. V vs. P",
+    "C_formal_proposed": "K_TechScale_vs_C_Organic_vs_V_HumanCentric_vs_P_Core",
+    "s_primary": [
+      "系统微模块",
+      "技术支持",
+      "完美主义/MVP"
+    ],
+    "s_primary_with_stance": [
+      {
+        "item": "系统微模块",
+        "stance": "整体感优先",
+        "direction": "-",
+        "coef": -0.418,
+        "marginal_perm_p": 0.002
+      },
+      {
+        "item": "技术支持",
+        "stance": "技术审慎主义",
+        "direction": "-",
+        "coef": -0.405,
+        "marginal_perm_p": 0.002
+      },
+      {
+        "item": "完美主义/MVP",
+        "stance": "速度优先",
+        "direction": "-",
+        "coef": -0.355,
+        "marginal_perm_p": 0.106
+      }
+    ],
+    "o_primary_hint": "C",
+    "o_subtype_hint": "c2"
+  },
+  "Q5_C": {
+    "qid": "Q5",
+    "option": "C",
+    "n_samples": 20,
+    "C_raw": "【技术加速】vs 【人本】、【有机",
+    "C_conflict_axes": "K vs. C vs. V vs. P",
+    "C_formal_proposed": "K_TechScale_vs_C_Organic_vs_V_HumanCentric_vs_P_Core",
+    "s_primary": [
+      "商业操纵伦理",
+      "技术支持",
+      "黑盒透明度"
+    ],
+    "s_primary_with_stance": [
+      {
+        "item": "商业操纵伦理",
+        "stance": "用户伦理底线",
+        "direction": "-",
+        "coef": -0.461,
+        "marginal_perm_p": 0.004
+      },
+      {
+        "item": "技术支持",
+        "stance": "技术审慎主义",
+        "direction": "-",
+        "coef": -0.28,
+        "marginal_perm_p": 0.062
+      },
+      {
+        "item": "黑盒透明度",
+        "stance": "过程透明派",
+        "direction": "-",
+        "coef": -0.279,
+        "marginal_perm_p": 0.04
+      }
+    ],
+    "o_primary_hint": "V",
+    "o_subtype_hint": "v3"
+  },
+  "Q5_D": {
+    "qid": "Q5",
+    "option": "D",
+    "n_samples": 79,
+    "C_raw": "【技术加速】vs 【人本】、【有机",
+    "C_conflict_axes": "K vs. C vs. V vs. P",
+    "C_formal_proposed": "K_TechScale_vs_C_Organic_vs_V_HumanCentric_vs_P_Core",
+    "s_primary": [
+      "本土文化妥协",
+      "混沌与灵感",
+      "独裁 vs 委员会"
+    ],
+    "s_primary_with_stance": [
+      {
+        "item": "本土文化妥协",
+        "stance": "全球通用派",
+        "direction": "-",
+        "coef": -0.441,
+        "marginal_perm_p": 0.018
+      },
+      {
+        "item": "混沌与灵感",
+        "stance": "验证至上派",
+        "direction": "-",
+        "coef": -0.291,
+        "marginal_perm_p": 0.018
+      },
+      {
+        "item": "独裁 vs 委员会",
+        "stance": "独裁愿景派",
+        "direction": "+",
+        "coef": 0.288,
+        "marginal_perm_p": 0.098
+      }
+    ],
+    "o_primary_hint": "P",
+    "o_subtype_hint": "p1"
+  },
+  "Q6_A": {
+    "qid": "Q6",
+    "option": "A",
+    "n_samples": 21,
+    "C_raw": "【商业导向与利润至上】 vs 【用户导向与责任感",
+    "C_conflict_axes": "V vs. C vs. P/K",
+    "C_formal_proposed": "V_UserResponsibility_vs_CPK_Commercial",
+    "s_primary": [
+      "仿生与有机",
+      "本土文化妥协",
+      "系统责任归属"
+    ],
+    "s_primary_with_stance": [
+      {
+        "item": "仿生与有机",
+        "stance": "有机自然派",
+        "direction": "+",
+        "coef": 0.437,
+        "marginal_perm_p": 0.014
+      },
+      {
+        "item": "本土文化妥协",
+        "stance": "全球通用派",
+        "direction": "-",
+        "coef": -0.293,
+        "marginal_perm_p": 0.044
+      },
+      {
+        "item": "系统责任归属",
+        "stance": "系统归责派",
+        "direction": "+",
+        "coef": 0.261,
+        "marginal_perm_p": 0.006
+      }
+    ],
+    "o_primary_hint": "V",
+    "o_subtype_hint": "v"
+  },
+  "Q6_B": {
+    "qid": "Q6",
+    "option": "B",
+    "n_samples": 61,
+    "C_raw": "【商业导向与利润至上】 vs 【用户导向与责任感",
+    "C_conflict_axes": "V vs. C vs. P/K",
+    "C_formal_proposed": "V_UserResponsibility_vs_CPK_Commercial",
+    "s_primary": [
+      "本土文化妥协",
+      "AI 替代论",
+      "商业操纵伦理"
+    ],
+    "s_primary_with_stance": [
+      {
+        "item": "本土文化妥协",
+        "stance": "本土深耕派",
+        "direction": "+",
+        "coef": 0.539,
+        "marginal_perm_p": 0.004
+      },
+      {
+        "item": "AI 替代论",
+        "stance": "岗位保护主义",
+        "direction": "-",
+        "coef": -0.51,
+        "marginal_perm_p": 0.126
+      },
+      {
+        "item": "商业操纵伦理",
+        "stance": "商业操纵容忍",
+        "direction": "+",
+        "coef": 0.427,
+        "marginal_perm_p": 0.048
+      }
+    ],
+    "o_primary_hint": "V",
+    "o_subtype_hint": "v1➡️c2"
+  },
+  "Q6_C": {
+    "qid": "Q6",
+    "option": "C",
+    "n_samples": 77,
+    "C_raw": "【商业导向与利润至上】 vs 【用户导向与责任感",
+    "C_conflict_axes": "V vs. C vs. P/K",
+    "C_formal_proposed": "V_UserResponsibility_vs_CPK_Commercial",
+    "s_primary": [
+      "封闭生态竞争",
+      "系统责任归属",
+      "救世主情结"
+    ],
+    "s_primary_with_stance": [
+      {
+        "item": "封闭生态竞争",
+        "stance": "封闭生态派",
+        "direction": "+",
+        "coef": 0.471,
+        "marginal_perm_p": 0.387
+      },
+      {
+        "item": "系统责任归属",
+        "stance": "用户归责派",
+        "direction": "-",
+        "coef": -0.416,
+        "marginal_perm_p": 0.03
+      },
+      {
+        "item": "救世主情结",
+        "stance": "工具中立派",
+        "direction": "-",
+        "coef": -0.28,
+        "marginal_perm_p": 0.042
+      }
+    ],
+    "o_primary_hint": "V",
+    "o_subtype_hint": "v2➡️p1"
+  },
+  "Q8_A": {
+    "qid": "Q8",
+    "option": "A",
+    "n_samples": 47,
+    "C_raw": null,
+    "C_conflict_axes": null,
+    "C_formal_proposed": null,
+    "s_primary": [
+      "创新代价",
+      "弱势群体优先",
+      "资产开源"
+    ],
+    "s_primary_with_stance": [
+      {
+        "item": "创新代价",
+        "stance": "惯例守护派",
+        "direction": "-",
+        "coef": -0.447,
+        "marginal_perm_p": 0.004
+      },
+      {
+        "item": "弱势群体优先",
+        "stance": "多数效率优先",
+        "direction": "-",
+        "coef": -0.139,
+        "marginal_perm_p": 0.285
+      },
+      {
+        "item": "资产开源",
+        "stance": "竞争壁垒派",
+        "direction": "-",
+        "coef": -0.111,
+        "marginal_perm_p": 0.291
+      }
+    ],
+    "o_primary_hint": null,
+    "o_subtype_hint": null
+  },
+  "Q8_B": {
+    "qid": "Q8",
+    "option": "B",
+    "n_samples": 61,
+    "C_raw": null,
+    "C_conflict_axes": null,
+    "C_formal_proposed": null,
+    "s_primary": [
+      "系统微模块",
+      "复杂工具信仰",
+      "资产开源"
+    ],
+    "s_primary_with_stance": [
+      {
+        "item": "系统微模块",
+        "stance": "整体感优先",
+        "direction": "-",
+        "coef": -0.253,
+        "marginal_perm_p": 0.016
+      },
+      {
+        "item": "复杂工具信仰",
+        "stance": "工具无关论",
+        "direction": "-",
+        "coef": -0.21,
+        "marginal_perm_p": 0.086
+      },
+      {
+        "item": "资产开源",
+        "stance": "开源道德派",
+        "direction": "+",
+        "coef": 0.133,
+        "marginal_perm_p": 0.852
+      }
+    ],
+    "o_primary_hint": null,
+    "o_subtype_hint": null
+  },
+  "Q8_C": {
+    "qid": "Q8",
+    "option": "C",
+    "n_samples": 55,
+    "C_raw": null,
+    "C_conflict_axes": null,
+    "C_formal_proposed": null,
+    "s_primary": [
+      "股东服务优先",
+      "系统微模块",
+      "装饰合法性"
+    ],
+    "s_primary_with_stance": [
+      {
+        "item": "股东服务优先",
+        "stance": "股东忠诚派",
+        "direction": "+",
+        "coef": 0.332,
+        "marginal_perm_p": 0.054
+      },
+      {
+        "item": "系统微模块",
+        "stance": "解耦优先",
+        "direction": "+",
+        "coef": 0.261,
+        "marginal_perm_p": 0.002
+      },
+      {
+        "item": "装饰合法性",
+        "stance": "装饰合法派",
+        "direction": "+",
+        "coef": 0.256,
+        "marginal_perm_p": 0.082
+      }
+    ],
+    "o_primary_hint": null,
+    "o_subtype_hint": null
+  },
+  "Q6_D": {
+    "qid": "Q6",
+    "option": "D",
+    "n_samples": 3,
+    "C_raw": "【商业导向与利润至上】 vs 【用户导向与责任感",
+    "C_conflict_axes": "V vs. C vs. P/K",
+    "C_formal_proposed": "V_UserResponsibility_vs_CPK_Commercial",
+    "s_primary": [],
+    "s_primary_with_stance": [],
+    "o_primary_hint": "V",
+    "o_subtype_hint": "k2➡️v2",
+    "_added_by": "gpt-extractor patch",
+    "_added_date": "2026-05-24",
+    "_source": "docs/notes/Q1-Q6每个选项的元数据.md Q6 D 选项"
+  }
+}

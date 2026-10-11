@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我不喜欢那种踩着红线冒险的感觉，尤其是涉及到法律和商业底线的问题。与其争论不休，我更倾向于先查清楚数据和法规，明确哪些是能做的，哪些是绝对不能碰的。这样不仅能避免后续的麻烦，也能让我在设计时更有安全感和方向感。",
+  "inferred_factor": "C",
+  "inferred_subtype": "C1",
+  "evidence_quote": "用法律底线和客观商业数据来重新界定我们到底能做什么。",
+  "evidence_source": "Q4_seed",
+  "confidence": "high",
+  "reason_if_low": ""
+}

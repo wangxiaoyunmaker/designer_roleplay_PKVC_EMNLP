@@ -1,0 +1,52 @@
+{
+  "sources": {
+    "4d_EFA_factor": {
+      "shape": [
+        163,
+        4
+      ],
+      "figures": [
+        "figures/4d_EFA_factor__pca.png",
+        "figures/4d_EFA_factor__tsne.png",
+        "figures/4d_EFA_factor__umap.png"
+      ],
+      "k_for_color": 4
+    },
+    "30d_trait": {
+      "shape": [
+        163,
+        30
+      ],
+      "figures": [
+        "figures/30d_trait__pca.png",
+        "figures/30d_trait__tsne.png",
+        "figures/30d_trait__umap.png"
+      ],
+      "k_for_color": 4
+    },
+    "Q_option_behavior": {
+      "shape": [
+        163,
+        23
+      ],
+      "figures": [
+        "figures/Q_option_behavior__pca.png",
+        "figures/Q_option_behavior__tsne.png",
+        "figures/Q_option_behavior__umap.png"
+      ],
+      "k_for_color": 4
+    },
+    "joint_trait_plus_behavior": {
+      "shape": [
+        163,
+        53
+      ],
+      "figures": [
+        "figures/joint_trait_plus_behavior__pca.png",
+        "figures/joint_trait_plus_behavior__tsne.png",
+        "figures/joint_trait_plus_behavior__umap.png"
+      ],
+      "k_for_color": 4
+    }
+  }
+}

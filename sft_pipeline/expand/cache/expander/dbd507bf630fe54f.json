@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我更关注产品和人的互动细节，设计时会优先考虑它是否自然、顺畅、低打扰。这种人因设计能让技术真正服务于用户，而不是让用户适应技术。",
+  "inferred_factor": "P",
+  "inferred_subtype": "P2",
+  "evidence_quote": "想象它如何与手机 App 协同，并尽量做到自然、顺畅、低打扰。",
+  "evidence_source": "Q1_seed",
+  "confidence": "high",
+  "reason_if_low": ""
+}

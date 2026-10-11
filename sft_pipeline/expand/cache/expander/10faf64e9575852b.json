@@ -1,0 +1,9 @@
+{
+  "expanded_nl":     "我选择了表面同意落地，但在细节上微操，是因为抢占市场的速度很重要，但不能完全牺牲用户体验。我会在设计中留一些空间，让用户有自主选择的余地，这样既能满足商业目标，也不会让用户觉得被强迫或不适应。",
+  "inferred_factor": "C",
+  "inferred_subtype": "C2",
+  "evidence_quote":  "早一点上市抢占市场和和核心用户",
+  "evidence_source": "Q6_seed",
+  "confidence":      "high",
+  "reason_if_low":   ""
+}

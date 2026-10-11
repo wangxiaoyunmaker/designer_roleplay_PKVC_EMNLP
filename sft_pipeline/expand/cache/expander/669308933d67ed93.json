@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "在我看来，设计产品之前，首先要守住做人的底线。用户信任我们，把隐私交给我们，我们就有责任保护好这些信息。这不仅是道德上的要求，也是法律的底线。为了短期利益而牺牲用户隐私，不仅违背了伦理，也会损害长期的品牌价值。",
+  "inferred_factor": "C",
+  "inferred_subtype": "C3",
+  "evidence_quote": "最核心的设计底线就是要确保用户的体验感以及用户的个人隐私得到保障。",
+  "evidence_source": "Q7_B3",
+  "confidence": "high",
+  "reason_if_low": ""
+}

@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "老板的目标是抢先上线，我不能违背这个大方向。但用户体验也不能完全放弃，所以我会把核心功能做好，尽量减少焦虑和不适。这些边缘需求可以放到后续迭代中优化，既保住市场先发优势，也为用户体验留出改进空间。",
+  "inferred_factor": "C",
+  "inferred_subtype": "C1",
+  "evidence_quote": "将针对焦虑缓解与边缘用户的设计优化，全部降级并推迟至二期工程或下一次迭代。",
+  "evidence_source": "Q6_seed",
+  "confidence": "high",
+  "reason_if_low": ""
+}

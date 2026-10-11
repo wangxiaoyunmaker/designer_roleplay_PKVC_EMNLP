@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我习惯先把规则和框架定下来，再去做具体的设计。这样可以避免在执行过程中反复调整，也能让团队有明确的方向感。尤其在多方利益冲突的情况下，先立规矩能帮助我理清优先级，确保设计决策更高效、更有条理。",
+  "inferred_factor": "V",
+  "inferred_subtype": "V2",
+  "evidence_quote": "在多方利益（商业、用户、社会）发生冲突时进行优先级排序",
+  "evidence_source": "Q2_cardid",
+  "confidence": "high",
+  "reason_if_low": ""
+}

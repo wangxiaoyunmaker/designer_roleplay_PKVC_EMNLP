@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我习惯先把复杂问题拆解成几个子问题，再逐个解决。这样不仅能明确每一步的目标，还能避免在全局上遗漏关键点。比如这次，我会先界定项目的核心底线，再通过分层调研找到用户的真实痛点，逐步优化方案，确保设计既符合商业目标，也能兼顾弱势群体的需求。",
+  "inferred_factor": "P",
+  "inferred_subtype": "P2",
+  "evidence_quote": "先确认哪些是必须实现的经营标准，哪些是可调整的方式",
+  "evidence_source": "Q7_B2",
+  "confidence": "high",
+  "reason_if_low": ""
+}

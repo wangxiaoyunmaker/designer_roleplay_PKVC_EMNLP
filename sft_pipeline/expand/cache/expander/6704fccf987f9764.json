@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "数据隐私在当下几乎是个伪命题，大家都在裸奔。与其争论对错，不如先看清规则和底线，明确哪些是能做的，哪些是绝对不能碰的。法律和商业数据是最客观的依据，只有在这个基础上，才能找到既合规又能实现商业目标的解决方案。",
+  "inferred_factor": "C",
+  "inferred_subtype": "C1",
+  "evidence_quote": "大势所趋，所有人数据都是在裸奔",
+  "evidence_source": "Q4_seed",
+  "confidence": "high",
+  "reason_if_low": ""
+}

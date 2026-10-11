@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我习惯先明确项目的核心问题，再拆解成几个具体子问题逐步解决。最后再把这些解决方案整合成一个整体逻辑，确保方向不偏离初心。",
+  "inferred_factor": "P",
+  "inferred_subtype": "P1",
+  "evidence_quote": "找到初心本质，分点解决，最终整合",
+  "evidence_source": "Q2_cardid",
+  "confidence": "high",
+  "reason_if_low": ""
+}

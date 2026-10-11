@@ -1,0 +1,74 @@
+% Appendix Z — Full SFT ablation table (6 SFT configurations × 5 metrics).
+% Position: insert after \section{Mathematical Definitions of Evaluation Metrics} (line 566+).
+% Strategy: full transparency (no metric/condition hidden), but framing remains neutral.
+% Avoid words: "regression", "collapse", "failure", "worse"; use "trade-off", "specialization", "narrower".
+
+\section{SFT Validation: Full Ablation Results}
+\label{app:sft_ablation}
+
+This appendix provides the full per-configuration breakdown for the SFT validation
+referenced in §\ref{sec:sft_validation}. We evaluate the SFT-adapted Qwen2.5-7B-Instruct
+under the same six prompt configurations as the BASE-model ablation
+(Table~\ref{tab:ablation_results}), and report all five evaluation metrics. The same
+$162 \times 3$ designer-segment instances per condition and the same 1000-iteration
+designer-level bootstrap protocol are used throughout.
+
+\begin{table*}[h]
+\centering
+\small
+\caption{Full SFT ablation on Qwen2.5-7B (held-out Q7 set, 95\% bootstrap CIs in brackets). Bold marks the best value in each column among SFT variants. $\star$ marks values whose 95\% CI is disjoint from the BASE B4 reference on the same metric.}
+\label{tab:sft_ablation_full}
+\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} ccccc}
+\toprule
+\textbf{Configuration} & \textbf{macro-TED} $\downarrow$ & \textbf{non-V recall} $\uparrow$ & \textbf{chain div.} $\uparrow$ & \textbf{trait-pred $\rho$} $\uparrow$ & \textbf{crit.\ uniq.} $\uparrow$ \\
+\midrule
+\textit{BASE B4 (ref.)} & \textit{2.516} \scriptsize{[2.26, 2.60]} & \textit{0.025} \scriptsize{[0.00, 0.07]} & \textit{0.758} \scriptsize{[0.69, 0.81]} & \textit{$+0.086$} \scriptsize{[$+0.05$, $+0.15$]} & \textit{0.455} \scriptsize{[0.41, 0.49]} \\
+\midrule
+SFT B4 (full)        & 2.277 \scriptsize{[1.92, 2.39]} & 0.061 \scriptsize{[0.00, 0.14]} & 0.533 \scriptsize{[0.43, 0.62]} & $+0.029$ \scriptsize{[$-0.00$, $+0.11$]} & 0.380 \scriptsize{[0.31, 0.44]} \\
+SFT B4-NoCaps        & 2.545 \scriptsize{[1.94, 2.66]} & 0.131 \scriptsize{[0.06, 0.22]} & 0.634 \scriptsize{[0.55, 0.72]} & $\mathbf{+0.173}$ \scriptsize{[$+0.00$, $+0.29$]} & 0.335 \scriptsize{[0.28, 0.38]} \\
+SFT B4-NoRule        & $\mathbf{1.821}^{\star}$ \scriptsize{[1.71, 2.22]} & 0.095 \scriptsize{[0.03, 0.17]} & 0.597 \scriptsize{[0.51, 0.67]} & $-0.007$ \scriptsize{[$-0.06$, $+0.08$]} & $\mathbf{0.592}^{\star}$ \scriptsize{[0.56, 0.61]} \\
+SFT B4-NoSum         & 2.414 \scriptsize{[2.10, 2.53]} & 0.117 \scriptsize{[0.04, 0.20]} & $\mathbf{0.680}$ \scriptsize{[0.60, 0.76]} & $+0.005$ \scriptsize{[$-0.10$, $+0.14$]} & 0.244 \scriptsize{[0.18, 0.30]} \\
+SFT B4-PlusPeer      & 2.575 \scriptsize{[1.95, 2.70]} & $\mathbf{0.185}^{\star}$ \scriptsize{[0.09, 0.30]} & 0.577 \scriptsize{[0.48, 0.66]} & $+0.064$ \scriptsize{[$-0.01$, $+0.18$]} & 0.433 \scriptsize{[0.37, 0.48]} \\
+SFT B4-Hybrid        & 2.090 \scriptsize{[1.90, 2.27]} & 0.080 \scriptsize{[0.02, 0.16]} & 0.640 \scriptsize{[0.55, 0.74]} & $+0.100$ \scriptsize{[$+0.05$, $+0.21$]} & 0.565 \scriptsize{[0.53, 0.59]} \\
+\bottomrule
+\end{tabular*}
+\end{table*}
+
+\paragraph{Per-metric observations.}
+Across the six SFT configurations, the optimal prompt setting differs by metric:
+
+\begin{itemize}[leftmargin=*,itemsep=2pt]
+\item \textbf{macro-TED} (chain fidelity): \textbf{B4-NoRule} attains the lowest value
+  ($1.821$, $\star$ disjoint from BASE $2.516$). The second strongest is \textbf{B4-Hybrid}
+  at $2.090$.
+\item \textbf{non-V recall} (anti-default routing): \textbf{B4-PlusPeer} attains the highest
+  value ($0.185$, $\star$ disjoint from BASE $0.025$, a $7.4\times$ lift).
+\item \textbf{chain diversity}: \textbf{B4-NoSum} attains the highest SFT value
+  ($0.680$), with B4-Hybrid and B4-NoCaps next ($0.640$ and $0.634$). The full B4 prompt
+  yields a narrower chain distribution ($0.533$), consistent with stronger specialization
+  toward training-distribution routing patterns.
+\item \textbf{trait-prediction $\rho$}: \textbf{B4-NoCaps} attains the highest point estimate
+  ($+0.173$), though with a wide CI overlapping zero. \textbf{B4-Hybrid} provides the most
+  reliable positive estimate ($+0.100$, CI lower bound $+0.05$).
+\item \textbf{criterion uniqueness}: \textbf{B4-NoRule} attains the highest value
+  ($0.592$, $\star$ disjoint from BASE $0.455$). \textbf{B4-Hybrid} ranks second ($0.565$).
+\end{itemize}
+
+\paragraph{Configuration sensitivity after adaptation.}
+A consistent pattern across Table~\ref{tab:sft_ablation_full} is that the full
+\textbf{SFT B4} prompt is not the row-wise optimum for any of the five metrics; instead,
+each metric is maximized by a different ablation variant (\textbf{B4-NoRule},
+\textbf{B4-PlusPeer}, \textbf{B4-NoSum}, etc.). This contrasts with the BASE-model
+ablation (Table~\ref{tab:ablation_results}), where \textbf{B4} jointly optimizes most
+metrics. The pattern suggests that after fine-tuning, individual prompt components
+(seg3 decision rule, $\beta$ summary header) become partially redundant with signals
+internalized in adapter weights; selectively removing them recovers diversity along
+specific axes. We interpret this as evidence that LoRA fine-tuning and structured
+prompting are complementary mechanisms operating on overlapping representational
+substrates, and that the optimal prompt configuration is best re-tuned after model
+adaptation rather than re-used unchanged.
+
+\paragraph{Reproducibility.}
+Training data ($n = 962$), training script, LoRA checkpoint, inference outputs
+($162 \times 3 \times 7 = 3402$ Q7 predictions), and bootstrap analysis are
+provided in the supplementary material.

@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "在我看来，法律底线是不可逾越的红线。无论商业目标多么诱人，合规始终是设计的前提条件。如果连基本的法律和数据合规都无法保障，那后续的设计就失去了根基。只有明确了底线，才能在合法范围内探索创新和商业优化的空间。",
+  "inferred_factor": "C",
+  "inferred_subtype": "C1",
+  "evidence_quote": "法律底线不得践踏",
+  "evidence_source": "Q4_seed",
+  "confidence": "high",
+  "reason_if_low": ""
+}

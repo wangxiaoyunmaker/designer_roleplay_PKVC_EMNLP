@@ -1,0 +1,9 @@
+{
+  "expanded_nl": "我会先去翻法律和数据，明确底线和空间，这样才能既满足老板的商业目标，又能在合理范围内征求用户数据。合规是前提，数据和协议能帮我厘清边界，避免主观争论。只有在规则框架内，才能找到平衡点，既不触碰红线，也能为设计争取更多可能性。",
+  "inferred_factor": "C",
+  "inferred_subtype": "C1",
+  "evidence_quote": "用法律底线和客观商业数据来重新界定我们到底能做什么。",
+  "evidence_source": "Q4_seed",
+  "confidence": "high",
+  "reason_if_low": ""
+}
